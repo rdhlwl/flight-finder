@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Flight Finder — Best Deals</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Flight Finder — Bay Area &harr; NYC Best Deals</h1>
+  <p id="updated-at">Loading…</p>
+
+  <fieldset>
+    <legend>Filters</legend>
+    <label>Departing side:
+      <select id="group-filter">
+        <option value="">All</option>
+        <option value="bay_area">Bay Area + Sacramento</option>
+        <option value="nyc">New York City</option>
+      </select>
+    </label>
+    <label><input type="checkbox" id="show-near" checked> Show near-day matches (&plusmn;1 day)</label>
+    <label>Max price: $<input type="number" id="max-price" placeholder="no limit" style="width: 90px;"></label>
+  </fieldset>
+
+  <table>
+    <thead>
+      <tr>
+        <th data-sort="price">Price &#x25BE;</th>
+        <th data-sort="origin">Route</th>
+        <th data-sort="depart_date">Depart</th>
+        <th data-sort="return_date">Return</th>
+        <th data-sort="outbound_departure_time">Departs</th>
+        <th data-sort="outbound_arrival_time">Arrives</th>
+        <th data-sort="duration_minutes">Duration</th>
+        <th>Match</th>
+        <th data-sort="scanned_at">Last scanned</th>
+      </tr>
+    </thead>
+    <tbody id="results-body">
+      <tr><td colspan="9">Loading…</td></tr>
+    </tbody>
+  </table>
+
+  <p class="hint">
+    This data is refreshed by a scheduled GitHub Actions workflow, not live on page load.
+    To run a new scan (custom dates, day-of-week range, airports), go to this repo's
+    <strong>Actions</strong> tab &rarr; <code>scan</code> workflow &rarr; <strong>Run workflow</strong>,
+    fill in the inputs, and check back here in a few minutes once it finishes and redeploys.
+  </p>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+body { font-family: -apple-system, sans-serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; color: #222; }
+h1 { font-size: 1.4rem; }
+nav a { margin-right: 1rem; }
+fieldset { margin-bottom: 1.2rem; border: 1px solid #ddd; border-radius: 6px; }
+legend { font-weight: 600; }
+label { display: inline-block; margin: 0.2rem 0.8rem 0.2rem 0; }
+table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+th, td { text-align: left; padding: 0.4rem 0.6rem; border-bottom: 1px solid #eee; }
+tr.near-match { color: #777; }
+.price { font-weight: 700; }
+.badge { font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 4px; background: #eef; }
+.badge.near { background: #fee; }
+button { padding: 0.5rem 1rem; cursor: pointer; }
+.hint { color: #777; font-size: 0.85rem; }
+#progress { margin: 1rem 0; }
+.date-row { margin-bottom: 0.4rem; }

@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Best deals found so far</h2>
+<p class="hint">Every previously scanned route/date combo, cheapest first. Run more searches to discover more.</p>
+
+<form method="get">
+  <label>Filter by departing side:
+    <select name="origin_group" onchange="this.form.submit()">
+      <option value="">All</option>
+      {% for key, g in groups.items() %}
+      <option value="{{ key }}" {% if key == origin_group %}selected{% endif %}>{{ g.label }}</option>
+      {% endfor %}
+    </select>
+  </label>
+</form>
+
+<table>
+  <thead><tr><th>Price</th><th>Route</th><th>Depart</th><th>Return</th><th>Departs</th><th>Arrives</th><th>Duration</th><th>Match</th><th>Search</th><th>Last scanned</th></tr></thead>
+  <tbody>
+    {% for d in deals %}
+    <tr class="{{ 'near-match' if d.match_type == 'near' else '' }}">
+      <td class="price">${{ d.price | round(0) | int }}</td>
+      <td>{{ d.origin }} &rarr; {{ d.destination }}</td>
+      <td>{{ d.depart_date }}</td>
+      <td>{{ d.return_date or '' }}</td>
+      <td>{{ d.outbound_departure_time or '' }}</td>
+      <td>{{ d.outbound_arrival_time or '' }}</td>
+      <td>{{ d.duration_minutes | duration }}</td>
+      <td><span class="badge {{ 'near' if d.match_type == 'near' else '' }}">{{ d.match_type }}</span></td>
+      <td>{{ d.search_label or '' }}</td>
+      <td>{{ d.scanned_at[:16].replace('T', ' ') }}</td>
+    </tr>
+    {% endfor %}
+    {% if not deals %}
+    <tr><td colspan="10">No scans yet — run a search first.</td></tr>
+    {% endif %}
+  </tbody>
+</table>
+{% endblock %}

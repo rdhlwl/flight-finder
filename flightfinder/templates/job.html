@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<div id="progress">Scanning… <span id="done">0</span> / <span id="total">?</span></div>
+<table id="results-table">
+  <thead><tr><th>Price</th><th>Route</th><th>Depart</th><th>Return</th><th>Departs</th><th>Arrives</th><th>Duration</th><th>Match</th></tr></thead>
+  <tbody id="results-body"></tbody>
+</table>
+
+<script>
+const jobId = "{{ job_id }}";
+function render(data) {
+  document.getElementById('done').textContent = data.done;
+  document.getElementById('total').textContent = data.total;
+  const body = document.getElementById('results-body');
+  body.innerHTML = '';
+  data.results.forEach(r => {
+    const tr = document.createElement('tr');
+    if (r.match_type === 'near') tr.className = 'near-match';
+    tr.innerHTML = `<td class="price">$${r.price}</td>` +
+      `<td>${r.origin} &rarr; ${r.destination}</td>` +
+      `<td>${r.depart_date}</td><td>${r.return_date}</td>` +
+      `<td>${r.outbound_departure_time || ''}</td>` +
+      `<td>${r.outbound_arrival_time || ''}</td>` +
+      `<td>${r.duration_label || ''}</td>` +
+      `<td><span class="badge ${r.match_type === 'near' ? 'near' : ''}">${r.match_type}</span></td>`;
+    body.appendChild(tr);
+  });
+  if (data.status === 'running') {
+    document.getElementById('progress').firstChild.textContent = 'Scanning… ';
+    setTimeout(poll, 2000);
+  } else if (data.status === 'done') {
+    document.getElementById('progress').firstChild.textContent = 'Done. ';
+  } else if (data.status === 'error') {
+    document.getElementById('progress').textContent = 'Error: ' + data.error;
+  }
+}
+function poll() {
+  fetch(`/api/jobs/${jobId}`).then(r => r.json()).then(render);
+}
+poll();
+</script>
+{% endblock %}

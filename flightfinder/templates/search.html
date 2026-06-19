@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+{% block content %}
+
+<fieldset>
+  <legend>Departing airport side</legend>
+  <p class="hint">Choose which side you're flying out from. The other side becomes the destination.</p>
+  <label><input type="radio" name="origin_group_shared" value="bay_area" checked> Bay Area + Sacramento (SFO/OAK/SJC/SMF)</label>
+  <label><input type="radio" name="origin_group_shared" value="nyc"> New York City (JFK/EWR/LGA)</label>
+
+  {% for key, g in groups.items() %}
+  <div class="airport-block" data-group="{{ key }}">
+    <p class="hint">{{ g.label }} airports to include:</p>
+    {% for code, name in g.airports.items() %}
+    <label><input type="checkbox" class="airport-cb" data-group="{{ key }}" value="{{ code }}" checked> {{ name }}</label>
+    {% endfor %}
+  </div>
+  {% endfor %}
+</fieldset>
+
+<form method="post" action="{{ url_for('search_range') }}" id="range-form">
+  <input type="hidden" name="origin_group" id="range-origin-group" value="bay_area">
+  <fieldset>
+    <legend>Search a day-of-week range (e.g. depart Thursday, return Sunday)</legend>
+    <label>Depart on:
+      <select name="depart_weekday">
+        {% for num, name in weekdays %}
+        <option value="{{ num }}" {% if num == 3 %}selected{% endif %}>{{ name }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>Return on:
+      <select name="return_weekday">
+        {% for num, name in weekdays %}
+        <option value="{{ num }}" {% if num == 6 %}selected{% endif %}>{{ name }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <br>
+    <label>Search the next
+      <select name="months_ahead">
+        <option value="1">1 month</option>
+        <option value="2">2 months</option>
+        <option value="3" selected>3 months</option>
+        <option value="6">6 months</option>
+      </select>
+    </label>
+    <br>
+    <label><input type="checkbox" name="include_near"> Also show dates ~1 day off the preferred range</label>
+    <br><br>
+    <button type="submit">Scan this range</button>
+    <span class="hint">This runs many live queries against Google Flights and can take a while &mdash; narrower airport selections and shorter ranges are faster.</span>
+  </fieldset>
+</form>
+
+<form method="post" action="{{ url_for('search_dates') }}" id="dates-form">
+  <input type="hidden" name="origin_group" id="dates-origin-group" value="bay_area">
+  <fieldset>
+    <legend>Search specific dates</legend>
+    <div id="date-rows">
+      <div class="date-row">
+        Depart <input type="date" name="depart_date"> Return <input type="date" name="return_date">
+      </div>
+    </div>
+    <button type="button" id="add-date-row">+ add another date pair</button>
+    <br><br>
+    <button type="submit">Scan these dates</button>
+  </fieldset>
+</form>
+
+<script>
+function syncGroup() {
+  const group = document.querySelector('input[name=origin_group_shared]:checked').value;
+  document.getElementById('range-origin-group').value = group;
+  document.getElementById('dates-origin-group').value = group;
+}
+document.querySelectorAll('input[name=origin_group_shared]').forEach(r => r.addEventListener('change', syncGroup));
+syncGroup();
+
+function injectAirportInputs(form) {
+  form.querySelectorAll('input.injected-airport').forEach(el => el.remove());
+  document.querySelectorAll('.airport-cb:checked').forEach(cb => {
+    const input = document.createElement('input');
+    input.type = 'hidden';
+    input.className = 'injected-airport';
+    input.name = cb.dataset.group + '_airports';
+    input.value = cb.value;
+    form.appendChild(input);
+  });
+}
+document.getElementById('range-form').addEventListener('submit', e => injectAirportInputs(e.target));
+document.getElementById('dates-form').addEventListener('submit', e => injectAirportInputs(e.target));
+
+document.getElementById('add-date-row').addEventListener('click', () => {
+  const row = document.createElement('div');
+  row.className = 'date-row';
+  row.innerHTML = 'Depart <input type="date" name="depart_date"> Return <input type="date" name="return_date">';
+  document.getElementById('date-rows').appendChild(row);
+});
+</script>
+{% endblock %}

@@ -1,0 +1,84 @@
+name: scan
+
+on:
+  schedule:
+    # Every Monday at 13:00 UTC. Edit as you like; scanning is slow and Google Flights
+    # may rate-limit aggressive schedules, so weekly-ish is a reasonable default.
+    - cron: "0 13 * * 1"
+  workflow_dispatch:
+    inputs:
+      origin_group:
+        description: "Departing side"
+        type: choice
+        options: ["bay_area", "nyc"]
+        default: "bay_area"
+      mode:
+        description: "Search mode"
+        type: choice
+        options: ["range", "dates"]
+        default: "range"
+      depart_weekday:
+        description: "Depart weekday (range mode, 0=Mon..6=Sun)"
+        type: string
+        default: "3"
+      return_weekday:
+        description: "Return weekday (range mode, 0=Mon..6=Sun)"
+        type: string
+        default: "6"
+      months_ahead:
+        description: "How many months ahead to scan (range mode)"
+        type: string
+        default: "3"
+      include_near:
+        description: "Also scan +/-1 day near matches (range mode)"
+        type: boolean
+        default: true
+      date_pairs:
+        description: 'Dates mode only: "YYYY-MM-DD:YYYY-MM-DD,YYYY-MM-DD:YYYY-MM-DD"'
+        type: string
+        default: ""
+      origin_airports:
+        description: "Comma list to narrow origin airports (blank = all in group)"
+        type: string
+        default: ""
+      destination_airports:
+        description: "Comma list to narrow destination airports (blank = all in group)"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scan
+        env:
+          ORIGIN_GROUP: ${{ github.event.inputs.origin_group || 'bay_area' }}
+          MODE: ${{ github.event.inputs.mode || 'range' }}
+          DEPART_WEEKDAY: ${{ github.event.inputs.depart_weekday || '3' }}
+          RETURN_WEEKDAY: ${{ github.event.inputs.return_weekday || '6' }}
+          MONTHS_AHEAD: ${{ github.event.inputs.months_ahead || '3' }}
+          INCLUDE_NEAR: ${{ github.event.inputs.include_near || 'true' }}
+          DATE_PAIRS: ${{ github.event.inputs.date_pairs }}
+          ORIGIN_AIRPORTS: ${{ github.event.inputs.origin_airports }}
+          DESTINATION_AIRPORTS: ${{ github.event.inputs.destination_airports }}
+        run: python scripts/scan_cli.py
+
+      - name: Commit updated deals data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/scans.json
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Update scanned flight deals"
+          git push

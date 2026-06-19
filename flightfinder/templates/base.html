@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Flight Finder</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <nav>
+    <a href="{{ url_for('index') }}">Search</a>
+    <a href="{{ url_for('deals') }}">Best Deals</a>
+  </nav>
+  <h1>Flight Finder — Bay Area &harr; NYC</h1>
+  {% block content %}{% endblock %}
+</body>
+</html>
