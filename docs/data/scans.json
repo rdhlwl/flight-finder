@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T16:02:54.804528+00:00",
+  "updated_at": "2026-08-03T16:03:36.610631+00:00",
   "deals": [
     {
       "origin": "SMF",
@@ -507,6 +507,20 @@
     },
     {
       "origin": "SMF",
+      "destination": "JFK",
+      "depart_date": "2026-09-02",
+      "return_date": "2026-09-06",
+      "price": 302,
+      "outbound_departure_time": "06:44 PDT",
+      "outbound_arrival_time": "23:00 EDT",
+      "duration_minutes": 796,
+      "duration_label": "13h 16m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.609849+00:00"
+    },
+    {
+      "origin": "SMF",
       "destination": "LGA",
       "depart_date": "2026-09-24",
       "return_date": "2026-09-26",
@@ -595,13 +609,69 @@
       "depart_date": "2026-08-28",
       "return_date": "2026-08-30",
       "price": 307,
-      "outbound_departure_time": "11:13 PDT",
-      "outbound_arrival_time": "23:51 EDT",
-      "duration_minutes": 578,
-      "duration_label": "9h 38m",
+      "outbound_departure_time": "16:11 PDT",
+      "outbound_arrival_time": "06:00 EDT",
+      "duration_minutes": 649,
+      "duration_label": "10h 49m",
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-27T16:02:54.803969+00:00"
+      "scanned_at": "2026-08-03T16:03:36.609813+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "JFK",
+      "depart_date": "2026-09-16",
+      "return_date": "2026-09-20",
+      "price": 307,
+      "outbound_departure_time": "06:25 PDT",
+      "outbound_arrival_time": "20:30 EDT",
+      "duration_minutes": 665,
+      "duration_label": "11h 5m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.609943+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "JFK",
+      "depart_date": "2026-09-30",
+      "return_date": "2026-10-04",
+      "price": 307,
+      "outbound_departure_time": "05:45 PDT",
+      "outbound_arrival_time": "17:55 EDT",
+      "duration_minutes": 550,
+      "duration_label": "9h 10m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610028+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "JFK",
+      "depart_date": "2026-10-15",
+      "return_date": "2026-10-17",
+      "price": 307,
+      "outbound_departure_time": "13:05 PDT",
+      "outbound_arrival_time": "23:39 EDT",
+      "duration_minutes": 454,
+      "duration_label": "7h 34m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610184+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "JFK",
+      "depart_date": "2026-10-22",
+      "return_date": "2026-10-24",
+      "price": 307,
+      "outbound_departure_time": "11:26 PDT",
+      "outbound_arrival_time": "23:42 EDT",
+      "duration_minutes": 556,
+      "duration_label": "9h 16m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610265+00:00"
     },
     {
       "origin": "SFO",
@@ -672,20 +742,6 @@
       "match_type": "exact",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-06T16:42:57.704144+00:00"
-    },
-    {
-      "origin": "SMF",
-      "destination": "JFK",
-      "depart_date": "2026-09-02",
-      "return_date": "2026-09-06",
-      "price": 308,
-      "outbound_departure_time": "12:55 PDT",
-      "outbound_arrival_time": "23:58 EDT",
-      "duration_minutes": 483,
-      "duration_label": "8h 3m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-06T16:42:57.704412+00:00"
     },
     {
       "origin": "SMF",
@@ -762,14 +818,112 @@
       "destination": "EWR",
       "depart_date": "2026-09-24",
       "return_date": "2026-09-28",
-      "price": 311,
-      "outbound_departure_time": "18:35 PDT",
-      "outbound_arrival_time": "12:27 EDT",
-      "duration_minutes": 892,
-      "duration_label": "14h 52m",
+      "price": 310,
+      "outbound_departure_time": "06:36 PDT",
+      "outbound_arrival_time": "19:15 EDT",
+      "duration_minutes": 579,
+      "duration_label": "9h 39m",
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-20T15:29:44.848419+00:00"
+      "scanned_at": "2026-08-03T16:03:36.610000+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "JFK",
+      "depart_date": "2026-10-01",
+      "return_date": "2026-10-05",
+      "price": 310,
+      "outbound_departure_time": "06:00 PDT",
+      "outbound_arrival_time": "19:29 EDT",
+      "duration_minutes": 629,
+      "duration_label": "10h 29m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610055+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "JFK",
+      "depart_date": "2026-09-17",
+      "return_date": "2026-09-19",
+      "price": 310,
+      "outbound_departure_time": "08:00 PDT",
+      "outbound_arrival_time": "21:00 EDT",
+      "duration_minutes": 600,
+      "duration_label": "10h 0m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.609952+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "JFK",
+      "depart_date": "2026-10-01",
+      "return_date": "2026-10-03",
+      "price": 310,
+      "outbound_departure_time": "06:00 PDT",
+      "outbound_arrival_time": "19:29 EDT",
+      "duration_minutes": 629,
+      "duration_label": "10h 29m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610042+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "LGA",
+      "depart_date": "2026-09-16",
+      "return_date": "2026-09-20",
+      "price": 310,
+      "outbound_departure_time": "22:05 PDT",
+      "outbound_arrival_time": "16:00 EDT",
+      "duration_minutes": 895,
+      "duration_label": "14h 55m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.609934+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "LGA",
+      "depart_date": "2026-10-22",
+      "return_date": "2026-10-24",
+      "price": 310,
+      "outbound_departure_time": "23:10 PDT",
+      "outbound_arrival_time": "13:34 EDT",
+      "duration_minutes": 684,
+      "duration_label": "11h 24m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610253+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "LGA",
+      "depart_date": "2026-09-24",
+      "return_date": "2026-09-28",
+      "price": 312,
+      "outbound_departure_time": "19:15 PDT",
+      "outbound_arrival_time": "10:10 EDT",
+      "duration_minutes": 715,
+      "duration_label": "11h 55m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610013+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "LGA",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-10-31",
+      "price": 312,
+      "outbound_departure_time": "19:20 PDT",
+      "outbound_arrival_time": "09:18 EDT",
+      "duration_minutes": 658,
+      "duration_label": "10h 58m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610408+00:00"
     },
     {
       "origin": "SFO",
@@ -842,6 +996,20 @@
       "scanned_at": "2026-07-27T16:02:54.804049+00:00"
     },
     {
+      "origin": "SMF",
+      "destination": "LGA",
+      "depart_date": "2026-10-01",
+      "return_date": "2026-10-05",
+      "price": 313,
+      "outbound_departure_time": "19:15 PDT",
+      "outbound_arrival_time": "10:10 EDT",
+      "duration_minutes": 715,
+      "duration_label": "11h 55m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610064+00:00"
+    },
+    {
       "origin": "OAK",
       "destination": "LGA",
       "depart_date": "2026-09-10",
@@ -912,6 +1080,20 @@
       "scanned_at": "2026-07-20T15:29:44.848411+00:00"
     },
     {
+      "origin": "SFO",
+      "destination": "EWR",
+      "depart_date": "2026-10-22",
+      "return_date": "2026-10-24",
+      "price": 316,
+      "outbound_departure_time": "06:47 PDT",
+      "outbound_arrival_time": "19:25 EDT",
+      "duration_minutes": 578,
+      "duration_label": "9h 38m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610250+00:00"
+    },
+    {
       "origin": "SMF",
       "destination": "JFK",
       "depart_date": "2026-08-27",
@@ -952,34 +1134,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-13T16:05:15.077373+00:00"
-    },
-    {
-      "origin": "SMF",
-      "destination": "JFK",
-      "depart_date": "2026-09-16",
-      "return_date": "2026-09-20",
-      "price": 318,
-      "outbound_departure_time": "06:25 PDT",
-      "outbound_arrival_time": "20:30 EDT",
-      "duration_minutes": 665,
-      "duration_label": "11h 5m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077358+00:00"
-    },
-    {
-      "origin": "SMF",
-      "destination": "LGA",
-      "depart_date": "2026-10-01",
-      "return_date": "2026-10-05",
-      "price": 318,
-      "outbound_departure_time": "23:55 PDT",
-      "outbound_arrival_time": "18:55 EDT",
-      "duration_minutes": 960,
-      "duration_label": "16h 0m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077643+00:00"
     },
     {
       "origin": "SMF",
@@ -1332,6 +1486,48 @@
       "scanned_at": "2026-07-13T16:05:15.077285+00:00"
     },
     {
+      "origin": "SJC",
+      "destination": "EWR",
+      "depart_date": "2026-08-26",
+      "return_date": "2026-08-30",
+      "price": 322,
+      "outbound_departure_time": "06:20 PDT",
+      "outbound_arrival_time": "19:25 EDT",
+      "duration_minutes": 605,
+      "duration_label": "10h 5m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.609805+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "JFK",
+      "depart_date": "2026-10-30",
+      "return_date": "2026-11-01",
+      "price": 322,
+      "outbound_departure_time": "06:00 PDT",
+      "outbound_arrival_time": "19:00 EDT",
+      "duration_minutes": 600,
+      "duration_label": "10h 0m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610378+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "JFK",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-10-31",
+      "price": 322,
+      "outbound_departure_time": "11:38 PDT",
+      "outbound_arrival_time": "22:51 EDT",
+      "duration_minutes": 493,
+      "duration_label": "8h 13m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610404+00:00"
+    },
+    {
       "origin": "SMF",
       "destination": "LGA",
       "depart_date": "2026-08-13",
@@ -1358,20 +1554,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-06T16:42:57.704537+00:00"
-    },
-    {
-      "origin": "SMF",
-      "destination": "JFK",
-      "depart_date": "2026-09-30",
-      "return_date": "2026-10-04",
-      "price": 323,
-      "outbound_departure_time": "06:25 PDT",
-      "outbound_arrival_time": "22:43 EDT",
-      "duration_minutes": 798,
-      "duration_label": "13h 18m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077568+00:00"
     },
     {
       "origin": "OAK",
@@ -1431,6 +1613,34 @@
     },
     {
       "origin": "SMF",
+      "destination": "JFK",
+      "depart_date": "2026-10-28",
+      "return_date": "2026-11-01",
+      "price": 327,
+      "outbound_departure_time": "07:00 PDT",
+      "outbound_arrival_time": "19:00 EDT",
+      "duration_minutes": 540,
+      "duration_label": "9h 0m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610347+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "LGA",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-02",
+      "price": 327,
+      "outbound_departure_time": "19:20 PDT",
+      "outbound_arrival_time": "09:18 EDT",
+      "duration_minutes": 658,
+      "duration_label": "10h 58m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610444+00:00"
+    },
+    {
+      "origin": "SMF",
       "destination": "LGA",
       "depart_date": "2026-10-22",
       "return_date": "2026-10-26",
@@ -1484,6 +1694,20 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-06T16:42:57.704668+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "LGA",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-01",
+      "price": 332,
+      "outbound_departure_time": "19:20 PDT",
+      "outbound_arrival_time": "09:18 EDT",
+      "duration_minutes": 658,
+      "duration_label": "10h 58m",
+      "match_type": "exact",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610323+00:00"
     },
     {
       "origin": "OAK",
@@ -1683,17 +1907,17 @@
     },
     {
       "origin": "SFO",
-      "destination": "JFK",
-      "depart_date": "2026-10-01",
-      "return_date": "2026-10-05",
+      "destination": "EWR",
+      "depart_date": "2026-09-25",
+      "return_date": "2026-09-27",
       "price": 338,
-      "outbound_departure_time": "09:00 PDT",
-      "outbound_arrival_time": "20:35 EDT",
-      "duration_minutes": 515,
-      "duration_label": "8h 35m",
+      "outbound_departure_time": "23:58 PDT",
+      "outbound_arrival_time": "12:35 EDT",
+      "duration_minutes": 577,
+      "duration_label": "9h 37m",
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-06T16:42:57.704960+00:00"
+      "scanned_at": "2026-08-03T16:03:36.609987+00:00"
     },
     {
       "origin": "SMF",
@@ -1726,20 +1950,6 @@
     {
       "origin": "SFO",
       "destination": "JFK",
-      "depart_date": "2026-09-17",
-      "return_date": "2026-09-19",
-      "price": 339,
-      "outbound_departure_time": "05:50 PDT",
-      "outbound_arrival_time": "18:00 EDT",
-      "duration_minutes": 550,
-      "duration_label": "9h 10m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-06-29T17:01:46.018686+00:00"
-    },
-    {
-      "origin": "SFO",
-      "destination": "JFK",
       "depart_date": "2026-09-24",
       "return_date": "2026-09-26",
       "price": 339,
@@ -1750,20 +1960,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-06T16:42:57.704778+00:00"
-    },
-    {
-      "origin": "SFO",
-      "destination": "JFK",
-      "depart_date": "2026-10-01",
-      "return_date": "2026-10-03",
-      "price": 339,
-      "outbound_departure_time": "09:00 PDT",
-      "outbound_arrival_time": "20:35 EDT",
-      "duration_minutes": 515,
-      "duration_label": "8h 35m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-06T16:42:57.704931+00:00"
     },
     {
       "origin": "OAK",
@@ -1852,20 +2048,6 @@
     {
       "origin": "SFO",
       "destination": "LGA",
-      "depart_date": "2026-09-16",
-      "return_date": "2026-09-20",
-      "price": 343,
-      "outbound_departure_time": "00:45 PDT",
-      "outbound_arrival_time": "12:38 EDT",
-      "duration_minutes": 533,
-      "duration_label": "8h 53m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-06-22T17:54:35.991576+00:00"
-    },
-    {
-      "origin": "SFO",
-      "destination": "LGA",
       "depart_date": "2026-08-12",
       "return_date": "2026-08-16",
       "price": 343,
@@ -1921,17 +2103,31 @@
     },
     {
       "origin": "SMF",
-      "destination": "LGA",
-      "depart_date": "2026-09-24",
-      "return_date": "2026-09-28",
+      "destination": "JFK",
+      "depart_date": "2026-08-27",
+      "return_date": "2026-08-30",
       "price": 344,
-      "outbound_departure_time": "06:10 PDT",
-      "outbound_arrival_time": "20:55 EDT",
-      "duration_minutes": 705,
-      "duration_label": "11h 45m",
-      "match_type": "near",
+      "outbound_departure_time": "06:22 PDT",
+      "outbound_arrival_time": "19:52 EDT",
+      "duration_minutes": 630,
+      "duration_label": "10h 30m",
+      "match_type": "exact",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077515+00:00"
+      "scanned_at": "2026-08-03T16:03:36.609798+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "JFK",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-01",
+      "price": 344,
+      "outbound_departure_time": "06:00 PDT",
+      "outbound_arrival_time": "19:00 EDT",
+      "duration_minutes": 600,
+      "duration_label": "10h 0m",
+      "match_type": "exact",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610317+00:00"
     },
     {
       "origin": "OAK",
@@ -1946,6 +2142,20 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-13T16:05:15.077493+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "LGA",
+      "depart_date": "2026-10-22",
+      "return_date": "2026-10-26",
+      "price": 345,
+      "outbound_departure_time": "23:10 PDT",
+      "outbound_arrival_time": "13:34 EDT",
+      "duration_minutes": 684,
+      "duration_label": "11h 24m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610273+00:00"
     },
     {
       "origin": "SFO",
@@ -1974,6 +2184,20 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-06T16:42:57.704762+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "EWR",
+      "depart_date": "2026-10-15",
+      "return_date": "2026-10-17",
+      "price": 347,
+      "outbound_departure_time": "18:35 PDT",
+      "outbound_arrival_time": "12:27 EDT",
+      "duration_minutes": 892,
+      "duration_label": "14h 52m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610170+00:00"
     },
     {
       "origin": "SMF",
@@ -2016,20 +2240,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-06T16:42:57.704882+00:00"
-    },
-    {
-      "origin": "SJC",
-      "destination": "EWR",
-      "depart_date": "2026-08-26",
-      "return_date": "2026-08-30",
-      "price": 348,
-      "outbound_departure_time": "06:00 PDT",
-      "outbound_arrival_time": "19:21 EDT",
-      "duration_minutes": 621,
-      "duration_label": "10h 21m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077101+00:00"
     },
     {
       "origin": "SMF",
@@ -2202,16 +2412,30 @@
     {
       "origin": "SMF",
       "destination": "JFK",
-      "depart_date": "2026-08-27",
-      "return_date": "2026-08-30",
+      "depart_date": "2026-09-24",
+      "return_date": "2026-09-28",
       "price": 353,
-      "outbound_departure_time": "06:00 PDT",
-      "outbound_arrival_time": "21:00 EDT",
-      "duration_minutes": 720,
-      "duration_label": "12h 0m",
+      "outbound_departure_time": "06:16 PDT",
+      "outbound_arrival_time": "19:54 EDT",
+      "duration_minutes": 638,
+      "duration_label": "10h 38m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610010+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "JFK",
+      "depart_date": "2026-09-24",
+      "return_date": "2026-09-27",
+      "price": 353,
+      "outbound_departure_time": "06:16 PDT",
+      "outbound_arrival_time": "19:54 EDT",
+      "duration_minutes": 638,
+      "duration_label": "10h 38m",
       "match_type": "exact",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-06T16:42:57.704261+00:00"
+      "scanned_at": "2026-08-03T16:03:36.609972+00:00"
     },
     {
       "origin": "SMF",
@@ -2254,20 +2478,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-27T16:02:54.804005+00:00"
-    },
-    {
-      "origin": "SFO",
-      "destination": "EWR",
-      "depart_date": "2026-10-15",
-      "return_date": "2026-10-17",
-      "price": 355,
-      "outbound_departure_time": "18:35 PDT",
-      "outbound_arrival_time": "12:27 EDT",
-      "duration_minutes": 892,
-      "duration_label": "14h 52m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-27T16:02:54.804186+00:00"
     },
     {
       "origin": "SFO",
@@ -2324,6 +2534,20 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-13T16:05:15.077217+00:00"
+    },
+    {
+      "origin": "OAK",
+      "destination": "LGA",
+      "depart_date": "2026-10-22",
+      "return_date": "2026-10-24",
+      "price": 356,
+      "outbound_departure_time": "23:55 PDT",
+      "outbound_arrival_time": "18:55 EDT",
+      "duration_minutes": 960,
+      "duration_label": "16h 0m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610259+00:00"
     },
     {
       "origin": "SMF",
@@ -2480,20 +2704,6 @@
       "scanned_at": "2026-07-13T16:05:15.077407+00:00"
     },
     {
-      "origin": "SMF",
-      "destination": "JFK",
-      "depart_date": "2026-09-24",
-      "return_date": "2026-09-28",
-      "price": 359,
-      "outbound_departure_time": "08:12 PDT",
-      "outbound_arrival_time": "22:59 EDT",
-      "duration_minutes": 707,
-      "duration_label": "11h 47m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077512+00:00"
-    },
-    {
       "origin": "SFO",
       "destination": "JFK",
       "depart_date": "2026-08-20",
@@ -2592,6 +2802,90 @@
       "scanned_at": "2026-07-20T15:29:44.848718+00:00"
     },
     {
+      "origin": "SFO",
+      "destination": "JFK",
+      "depart_date": "2026-10-22",
+      "return_date": "2026-10-26",
+      "price": 359,
+      "outbound_departure_time": "11:13 PDT",
+      "outbound_arrival_time": "22:25 EDT",
+      "duration_minutes": 492,
+      "duration_label": "8h 12m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610268+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "JFK",
+      "depart_date": "2026-10-23",
+      "return_date": "2026-10-25",
+      "price": 359,
+      "outbound_departure_time": "12:59 PDT",
+      "outbound_arrival_time": "21:30 EDT",
+      "duration_minutes": 331,
+      "duration_label": "5h 31m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610217+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "JFK",
+      "depart_date": "2026-10-21",
+      "return_date": "2026-10-25",
+      "price": 359,
+      "outbound_departure_time": "12:59 PDT",
+      "outbound_arrival_time": "21:30 EDT",
+      "duration_minutes": 331,
+      "duration_label": "5h 31m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610201+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "JFK",
+      "depart_date": "2026-10-15",
+      "return_date": "2026-10-17",
+      "price": 359,
+      "outbound_departure_time": "10:51 PDT",
+      "outbound_arrival_time": "22:29 EDT",
+      "duration_minutes": 518,
+      "duration_label": "8h 38m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610168+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "EWR",
+      "depart_date": "2026-10-02",
+      "return_date": "2026-10-04",
+      "price": 359,
+      "outbound_departure_time": "14:40 PDT",
+      "outbound_arrival_time": "16:02 EDT",
+      "duration_minutes": 1342,
+      "duration_label": "22h 22m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610037+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "JFK",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-10-31",
+      "price": 359,
+      "outbound_departure_time": "06:00 PDT",
+      "outbound_arrival_time": "17:00 EDT",
+      "duration_minutes": 480,
+      "duration_label": "8h 0m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610383+00:00"
+    },
+    {
       "origin": "SJC",
       "destination": "EWR",
       "depart_date": "2026-08-27",
@@ -2604,6 +2898,34 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-13T16:05:15.077122+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "EWR",
+      "depart_date": "2026-10-23",
+      "return_date": "2026-10-25",
+      "price": 360,
+      "outbound_departure_time": "18:35 PDT",
+      "outbound_arrival_time": "12:27 EDT",
+      "duration_minutes": 892,
+      "duration_label": "14h 52m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610221+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "EWR",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-10-31",
+      "price": 360,
+      "outbound_departure_time": "10:33 PDT",
+      "outbound_arrival_time": "21:28 EDT",
+      "duration_minutes": 475,
+      "duration_label": "7h 55m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610385+00:00"
     },
     {
       "origin": "SMF",
@@ -2676,6 +2998,34 @@
       "scanned_at": "2026-07-13T16:05:15.077711+00:00"
     },
     {
+      "origin": "SMF",
+      "destination": "JFK",
+      "depart_date": "2026-08-20",
+      "return_date": "2026-08-23",
+      "price": 362,
+      "outbound_departure_time": "11:21 PDT",
+      "outbound_arrival_time": "23:40 EDT",
+      "duration_minutes": 559,
+      "duration_label": "9h 19m",
+      "match_type": "exact",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.609758+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "LGA",
+      "depart_date": "2026-10-15",
+      "return_date": "2026-10-17",
+      "price": 362,
+      "outbound_departure_time": "05:40 PDT",
+      "outbound_arrival_time": "17:58 EDT",
+      "duration_minutes": 558,
+      "duration_label": "9h 18m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610188+00:00"
+    },
+    {
       "origin": "SFO",
       "destination": "JFK",
       "depart_date": "2026-09-03",
@@ -2704,18 +3054,18 @@
       "scanned_at": "2026-06-29T17:01:46.018525+00:00"
     },
     {
-      "origin": "SFO",
-      "destination": "JFK",
+      "origin": "OAK",
+      "destination": "LGA",
       "depart_date": "2026-10-22",
       "return_date": "2026-10-26",
       "price": 364,
-      "outbound_departure_time": "21:45 PDT",
-      "outbound_arrival_time": "11:00 EDT",
-      "duration_minutes": 615,
-      "duration_label": "10h 15m",
+      "outbound_departure_time": "06:20 PDT",
+      "outbound_arrival_time": "22:55 EDT",
+      "duration_minutes": 815,
+      "duration_label": "13h 35m",
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-27T16:02:54.804335+00:00"
+      "scanned_at": "2026-08-03T16:03:36.610281+00:00"
     },
     {
       "origin": "SFO",
@@ -3110,20 +3460,6 @@
       "scanned_at": "2026-07-06T16:42:57.704088+00:00"
     },
     {
-      "origin": "SFO",
-      "destination": "EWR",
-      "depart_date": "2026-09-25",
-      "return_date": "2026-09-27",
-      "price": 368,
-      "outbound_departure_time": "18:35 PDT",
-      "outbound_arrival_time": "12:27 EDT",
-      "duration_minutes": 892,
-      "duration_label": "14h 52m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077446+00:00"
-    },
-    {
       "origin": "OAK",
       "destination": "LGA",
       "depart_date": "2026-10-15",
@@ -3136,6 +3472,230 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-27T16:02:54.804194+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "JFK",
+      "depart_date": "2026-08-13",
+      "return_date": "2026-08-17",
+      "price": 368,
+      "outbound_departure_time": "06:00 PDT",
+      "outbound_arrival_time": "18:00 EDT",
+      "duration_minutes": 540,
+      "duration_label": "9h 0m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.609738+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "JFK",
+      "depart_date": "2026-09-23",
+      "return_date": "2026-09-27",
+      "price": 369,
+      "outbound_departure_time": "06:00 PDT",
+      "outbound_arrival_time": "17:00 EDT",
+      "duration_minutes": 480,
+      "duration_label": "8h 0m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.609976+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "EWR",
+      "depart_date": "2026-10-01",
+      "return_date": "2026-10-05",
+      "price": 369,
+      "outbound_departure_time": "06:12 PDT",
+      "outbound_arrival_time": "18:30 EDT",
+      "duration_minutes": 558,
+      "duration_label": "9h 18m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610058+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "JFK",
+      "depart_date": "2026-10-15",
+      "return_date": "2026-10-19",
+      "price": 369,
+      "outbound_departure_time": "10:51 PDT",
+      "outbound_arrival_time": "22:29 EDT",
+      "duration_minutes": 518,
+      "duration_label": "8h 38m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610191+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "EWR",
+      "depart_date": "2026-10-22",
+      "return_date": "2026-10-26",
+      "price": 369,
+      "outbound_departure_time": "06:47 PDT",
+      "outbound_arrival_time": "19:25 EDT",
+      "duration_minutes": 578,
+      "duration_label": "9h 38m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610271+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "JFK",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-01",
+      "price": 369,
+      "outbound_departure_time": "09:12 PDT",
+      "outbound_arrival_time": "19:59 EDT",
+      "duration_minutes": 467,
+      "duration_label": "7h 47m",
+      "match_type": "exact",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610294+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "EWR",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-01",
+      "price": 369,
+      "outbound_departure_time": "10:33 PDT",
+      "outbound_arrival_time": "21:28 EDT",
+      "duration_minutes": 475,
+      "duration_label": "7h 55m",
+      "match_type": "exact",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610297+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "LGA",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-01",
+      "price": 369,
+      "outbound_departure_time": "05:00 PDT",
+      "outbound_arrival_time": "17:29 EDT",
+      "duration_minutes": 569,
+      "duration_label": "9h 29m",
+      "match_type": "exact",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610299+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "JFK",
+      "depart_date": "2026-10-28",
+      "return_date": "2026-11-01",
+      "price": 369,
+      "outbound_departure_time": "08:00 PDT",
+      "outbound_arrival_time": "19:00 EDT",
+      "duration_minutes": 480,
+      "duration_label": "8h 0m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610325+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "EWR",
+      "depart_date": "2026-10-28",
+      "return_date": "2026-11-01",
+      "price": 369,
+      "outbound_departure_time": "06:47 PDT",
+      "outbound_arrival_time": "19:25 EDT",
+      "duration_minutes": 578,
+      "duration_label": "9h 38m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610327+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "JFK",
+      "depart_date": "2026-10-30",
+      "return_date": "2026-11-01",
+      "price": 369,
+      "outbound_departure_time": "19:11 PDT",
+      "outbound_arrival_time": "05:43 EDT",
+      "duration_minutes": 452,
+      "duration_label": "7h 32m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610352+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "EWR",
+      "depart_date": "2026-10-30",
+      "return_date": "2026-11-01",
+      "price": 369,
+      "outbound_departure_time": "06:47 PDT",
+      "outbound_arrival_time": "19:25 EDT",
+      "duration_minutes": 578,
+      "duration_label": "9h 38m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610355+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "LGA",
+      "depart_date": "2026-10-30",
+      "return_date": "2026-11-01",
+      "price": 369,
+      "outbound_departure_time": "05:00 PDT",
+      "outbound_arrival_time": "17:29 EDT",
+      "duration_minutes": 569,
+      "duration_label": "9h 29m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610357+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "JFK",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-02",
+      "price": 369,
+      "outbound_departure_time": "06:00 PDT",
+      "outbound_arrival_time": "17:00 EDT",
+      "duration_minutes": 480,
+      "duration_label": "8h 0m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610410+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "EWR",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-02",
+      "price": 369,
+      "outbound_departure_time": "10:33 PDT",
+      "outbound_arrival_time": "21:28 EDT",
+      "duration_minutes": 475,
+      "duration_label": "7h 55m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610413+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "LGA",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-02",
+      "price": 369,
+      "outbound_departure_time": "05:00 PDT",
+      "outbound_arrival_time": "17:29 EDT",
+      "duration_minutes": 569,
+      "duration_label": "9h 29m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610415+00:00"
     },
     {
       "origin": "SMF",
@@ -3334,20 +3894,6 @@
       "scanned_at": "2026-07-13T16:05:15.077638+00:00"
     },
     {
-      "origin": "SMF",
-      "destination": "JFK",
-      "depart_date": "2026-09-24",
-      "return_date": "2026-09-27",
-      "price": 373,
-      "outbound_departure_time": "07:00 PDT",
-      "outbound_arrival_time": "20:35 EDT",
-      "duration_minutes": 635,
-      "duration_label": "10h 35m",
-      "match_type": "exact",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077423+00:00"
-    },
-    {
       "origin": "SJC",
       "destination": "EWR",
       "depart_date": "2026-08-13",
@@ -3374,6 +3920,20 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-06-29T17:01:46.018456+00:00"
+    },
+    {
+      "origin": "OAK",
+      "destination": "LGA",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-10-31",
+      "price": 374,
+      "outbound_departure_time": "08:00 PDT",
+      "outbound_arrival_time": "20:50 EDT",
+      "duration_minutes": 590,
+      "duration_label": "9h 50m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610394+00:00"
     },
     {
       "origin": "SFO",
@@ -3502,20 +4062,6 @@
       "scanned_at": "2026-07-13T16:05:15.077130+00:00"
     },
     {
-      "origin": "SFO",
-      "destination": "JFK",
-      "depart_date": "2026-09-23",
-      "return_date": "2026-09-27",
-      "price": 377,
-      "outbound_departure_time": "12:41 PDT",
-      "outbound_arrival_time": "21:30 EDT",
-      "duration_minutes": 349,
-      "duration_label": "5h 49m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077428+00:00"
-    },
-    {
       "origin": "SMF",
       "destination": "EWR",
       "depart_date": "2026-08-27",
@@ -3558,18 +4104,88 @@
       "scanned_at": "2026-07-20T15:29:44.848613+00:00"
     },
     {
-      "origin": "SMF",
+      "origin": "SJC",
+      "destination": "JFK",
+      "depart_date": "2026-09-10",
+      "return_date": "2026-09-14",
+      "price": 377,
+      "outbound_departure_time": "06:00 PDT",
+      "outbound_arrival_time": "18:00 EDT",
+      "duration_minutes": 540,
+      "duration_label": "9h 0m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.609921+00:00"
+    },
+    {
+      "origin": "SJC",
       "destination": "JFK",
       "depart_date": "2026-10-15",
       "return_date": "2026-10-17",
       "price": 377,
-      "outbound_departure_time": "11:38 PDT",
-      "outbound_arrival_time": "23:55 EDT",
-      "duration_minutes": 557,
-      "duration_label": "9h 17m",
+      "outbound_departure_time": "11:36 PDT",
+      "outbound_arrival_time": "23:42 EDT",
+      "duration_minutes": 546,
+      "duration_label": "9h 6m",
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-20T15:29:44.848702+00:00"
+      "scanned_at": "2026-08-03T16:03:36.610179+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "JFK",
+      "depart_date": "2026-10-22",
+      "return_date": "2026-10-24",
+      "price": 377,
+      "outbound_departure_time": "07:00 PDT",
+      "outbound_arrival_time": "20:49 EDT",
+      "duration_minutes": 649,
+      "duration_label": "10h 49m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610261+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "JFK",
+      "depart_date": "2026-10-22",
+      "return_date": "2026-10-26",
+      "price": 377,
+      "outbound_departure_time": "07:00 PDT",
+      "outbound_arrival_time": "20:49 EDT",
+      "duration_minutes": 649,
+      "duration_label": "10h 49m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610283+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "JFK",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-10-31",
+      "price": 377,
+      "outbound_departure_time": "06:00 PDT",
+      "outbound_arrival_time": "19:00 EDT",
+      "duration_minutes": 600,
+      "duration_label": "10h 0m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610397+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "JFK",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-02",
+      "price": 377,
+      "outbound_departure_time": "06:00 PDT",
+      "outbound_arrival_time": "19:00 EDT",
+      "duration_minutes": 600,
+      "duration_label": "10h 0m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610427+00:00"
     },
     {
       "origin": "OAK",
@@ -3642,6 +4258,34 @@
       "scanned_at": "2026-07-20T15:29:44.848142+00:00"
     },
     {
+      "origin": "SFO",
+      "destination": "LGA",
+      "depart_date": "2026-10-15",
+      "return_date": "2026-10-17",
+      "price": 378,
+      "outbound_departure_time": "09:00 PDT",
+      "outbound_arrival_time": "21:30 EDT",
+      "duration_minutes": 570,
+      "duration_label": "9h 30m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610173+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "EWR",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-10-31",
+      "price": 378,
+      "outbound_departure_time": "12:59 PDT",
+      "outbound_arrival_time": "23:44 EDT",
+      "duration_minutes": 465,
+      "duration_label": "7h 45m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610399+00:00"
+    },
+    {
       "origin": "OAK",
       "destination": "LGA",
       "depart_date": "2026-10-01",
@@ -3668,20 +4312,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-13T16:05:15.077613+00:00"
-    },
-    {
-      "origin": "SJC",
-      "destination": "JFK",
-      "depart_date": "2026-09-10",
-      "return_date": "2026-09-14",
-      "price": 379,
-      "outbound_departure_time": "07:00 PDT",
-      "outbound_arrival_time": "19:54 EDT",
-      "duration_minutes": 594,
-      "duration_label": "9h 54m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077313+00:00"
     },
     {
       "origin": "SFO",
@@ -3723,7 +4353,7 @@
       "duration_label": "11h 24m",
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-27T16:02:54.804270+00:00"
+      "scanned_at": "2026-08-03T16:03:36.610204+00:00"
     },
     {
       "origin": "SFO",
@@ -3737,7 +4367,7 @@
       "duration_label": "11h 24m",
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-27T16:02:54.804308+00:00"
+      "scanned_at": "2026-08-03T16:03:36.610224+00:00"
     },
     {
       "origin": "SJC",
@@ -3838,20 +4468,6 @@
       "scanned_at": "2026-07-27T16:02:54.803999+00:00"
     },
     {
-      "origin": "SFO",
-      "destination": "EWR",
-      "depart_date": "2026-10-23",
-      "return_date": "2026-10-25",
-      "price": 382,
-      "outbound_departure_time": "22:59 PDT",
-      "outbound_arrival_time": "11:59 EDT",
-      "duration_minutes": 600,
-      "duration_label": "10h 0m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-27T16:02:54.804303+00:00"
-    },
-    {
       "origin": "SJC",
       "destination": "LGA",
       "depart_date": "2026-10-22",
@@ -3866,18 +4482,18 @@
       "scanned_at": "2026-07-27T16:02:54.804329+00:00"
     },
     {
-      "origin": "SMF",
-      "destination": "JFK",
-      "depart_date": "2026-08-13",
-      "return_date": "2026-08-17",
-      "price": 383,
-      "outbound_departure_time": "05:31 PDT",
-      "outbound_arrival_time": "18:30 EDT",
-      "duration_minutes": 599,
-      "duration_label": "9h 59m",
+      "origin": "SJC",
+      "destination": "LGA",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-10-31",
+      "price": 382,
+      "outbound_departure_time": "09:00 PDT",
+      "outbound_arrival_time": "23:10 EDT",
+      "duration_minutes": 670,
+      "duration_label": "11h 10m",
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-06-22T17:54:35.990877+00:00"
+      "scanned_at": "2026-08-03T16:03:36.610401+00:00"
     },
     {
       "origin": "SFO",
@@ -3922,20 +4538,6 @@
       "scanned_at": "2026-07-13T16:05:15.077079+00:00"
     },
     {
-      "origin": "SFO",
-      "destination": "LGA",
-      "depart_date": "2026-10-15",
-      "return_date": "2026-10-17",
-      "price": 383,
-      "outbound_departure_time": "12:41 PDT",
-      "outbound_arrival_time": "23:44 EDT",
-      "duration_minutes": 483,
-      "duration_label": "8h 3m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-27T16:02:54.804189+00:00"
-    },
-    {
       "origin": "SJC",
       "destination": "EWR",
       "depart_date": "2026-10-15",
@@ -3950,18 +4552,32 @@
       "scanned_at": "2026-07-27T16:02:54.804204+00:00"
     },
     {
-      "origin": "SFO",
-      "destination": "EWR",
-      "depart_date": "2026-10-22",
-      "return_date": "2026-10-24",
+      "origin": "SMF",
+      "destination": "JFK",
+      "depart_date": "2026-10-14",
+      "return_date": "2026-10-18",
       "price": 383,
-      "outbound_departure_time": "08:00 PDT",
-      "outbound_arrival_time": "19:25 EDT",
-      "duration_minutes": 505,
-      "duration_label": "8h 25m",
+      "outbound_departure_time": "09:55 PDT",
+      "outbound_arrival_time": "21:00 EDT",
+      "duration_minutes": 485,
+      "duration_label": "8h 5m",
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-27T16:02:54.804321+00:00"
+      "scanned_at": "2026-08-03T16:03:36.610154+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "JFK",
+      "depart_date": "2026-10-15",
+      "return_date": "2026-10-18",
+      "price": 383,
+      "outbound_departure_time": "11:26 PDT",
+      "outbound_arrival_time": "23:42 EDT",
+      "duration_minutes": 556,
+      "duration_label": "9h 16m",
+      "match_type": "exact",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610145+00:00"
     },
     {
       "origin": "SFO",
@@ -4004,20 +4620,6 @@
       "match_type": "exact",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-20T15:29:44.848319+00:00"
-    },
-    {
-      "origin": "SFO",
-      "destination": "JFK",
-      "depart_date": "2026-10-23",
-      "return_date": "2026-10-25",
-      "price": 384,
-      "outbound_departure_time": "14:30 PDT",
-      "outbound_arrival_time": "23:12 EDT",
-      "duration_minutes": 342,
-      "duration_label": "5h 42m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-27T16:02:54.804300+00:00"
     },
     {
       "origin": "SMF",
@@ -4272,20 +4874,6 @@
       "scanned_at": "2026-07-27T16:02:54.804155+00:00"
     },
     {
-      "origin": "SFO",
-      "destination": "JFK",
-      "depart_date": "2026-10-21",
-      "return_date": "2026-10-25",
-      "price": 388,
-      "outbound_departure_time": "12:08 PDT",
-      "outbound_arrival_time": "20:30 EDT",
-      "duration_minutes": 322,
-      "duration_label": "5h 22m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-27T16:02:54.804265+00:00"
-    },
-    {
       "origin": "SJC",
       "destination": "EWR",
       "depart_date": "2026-08-19",
@@ -4356,18 +4944,32 @@
       "scanned_at": "2026-06-22T17:54:35.990796+00:00"
     },
     {
-      "origin": "SMF",
-      "destination": "JFK",
-      "depart_date": "2026-10-14",
-      "return_date": "2026-10-18",
-      "price": 393,
-      "outbound_departure_time": "09:16 PDT",
-      "outbound_arrival_time": "21:47 EDT",
-      "duration_minutes": 571,
-      "duration_label": "9h 31m",
+      "origin": "SJC",
+      "destination": "LGA",
+      "depart_date": "2026-10-22",
+      "return_date": "2026-10-26",
+      "price": 392,
+      "outbound_departure_time": "08:00 PDT",
+      "outbound_arrival_time": "22:55 EDT",
+      "duration_minutes": 715,
+      "duration_label": "11h 55m",
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-20T15:29:44.848637+00:00"
+      "scanned_at": "2026-08-03T16:03:36.610288+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "LGA",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-02",
+      "price": 392,
+      "outbound_departure_time": "09:00 PDT",
+      "outbound_arrival_time": "23:10 EDT",
+      "duration_minutes": 670,
+      "duration_label": "11h 10m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610437+00:00"
     },
     {
       "origin": "SMF",
@@ -4382,20 +4984,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-06T16:42:57.704750+00:00"
-    },
-    {
-      "origin": "SFO",
-      "destination": "JFK",
-      "depart_date": "2026-10-15",
-      "return_date": "2026-10-17",
-      "price": 394,
-      "outbound_departure_time": "20:45 PDT",
-      "outbound_arrival_time": "05:23 EDT",
-      "duration_minutes": 338,
-      "duration_label": "5h 38m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-20T15:29:44.848685+00:00"
     },
     {
       "origin": "SFO",
@@ -4452,20 +5040,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-06-29T17:01:46.018459+00:00"
-    },
-    {
-      "origin": "SFO",
-      "destination": "EWR",
-      "depart_date": "2026-10-01",
-      "return_date": "2026-10-05",
-      "price": 395,
-      "outbound_departure_time": "18:35 PDT",
-      "outbound_arrival_time": "12:27 EDT",
-      "duration_minutes": 892,
-      "duration_label": "14h 52m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077619+00:00"
     },
     {
       "origin": "SFO",
@@ -4622,6 +5196,20 @@
       "scanned_at": "2026-07-20T15:29:44.848705+00:00"
     },
     {
+      "origin": "SMF",
+      "destination": "JFK",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-02",
+      "price": 397,
+      "outbound_departure_time": "11:38 PDT",
+      "outbound_arrival_time": "22:51 EDT",
+      "duration_minutes": 493,
+      "duration_label": "8h 13m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610439+00:00"
+    },
+    {
       "origin": "SFO",
       "destination": "JFK",
       "depart_date": "2026-08-06",
@@ -4662,20 +5250,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-06T16:42:57.704445+00:00"
-    },
-    {
-      "origin": "SMF",
-      "destination": "JFK",
-      "depart_date": "2026-08-20",
-      "return_date": "2026-08-23",
-      "price": 398,
-      "outbound_departure_time": "06:44 PDT",
-      "outbound_arrival_time": "18:30 EDT",
-      "duration_minutes": 526,
-      "duration_label": "8h 46m",
-      "match_type": "exact",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-06T16:42:57.704138+00:00"
     },
     {
       "origin": "OAK",
@@ -4888,6 +5462,34 @@
       "scanned_at": "2026-07-13T16:05:15.077714+00:00"
     },
     {
+      "origin": "SJC",
+      "destination": "EWR",
+      "depart_date": "2026-08-27",
+      "return_date": "2026-08-31",
+      "price": 399,
+      "outbound_departure_time": "13:24 PDT",
+      "outbound_arrival_time": "23:56 EDT",
+      "duration_minutes": 452,
+      "duration_label": "7h 32m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.609831+00:00"
+    },
+    {
+      "origin": "OAK",
+      "destination": "LGA",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-02",
+      "price": 399,
+      "outbound_departure_time": "09:45 PDT",
+      "outbound_arrival_time": "23:10 EDT",
+      "duration_minutes": 625,
+      "duration_label": "10h 25m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610424+00:00"
+    },
+    {
       "origin": "SMF",
       "destination": "JFK",
       "depart_date": "2026-07-30",
@@ -4942,6 +5544,20 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-20T15:29:44.848731+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "JFK",
+      "depart_date": "2026-10-15",
+      "return_date": "2026-10-18",
+      "price": 403,
+      "outbound_departure_time": "10:51 PDT",
+      "outbound_arrival_time": "22:29 EDT",
+      "duration_minutes": 518,
+      "duration_label": "8h 38m",
+      "match_type": "exact",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610129+00:00"
     },
     {
       "origin": "SFO",
@@ -5071,20 +5687,6 @@
     },
     {
       "origin": "SMF",
-      "destination": "LGA",
-      "depart_date": "2026-10-15",
-      "return_date": "2026-10-17",
-      "price": 407,
-      "outbound_departure_time": "21:10 PDT",
-      "outbound_arrival_time": "09:45 EDT",
-      "duration_minutes": 575,
-      "duration_label": "9h 35m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-20T15:29:44.848710+00:00"
-    },
-    {
-      "origin": "SMF",
       "destination": "EWR",
       "depart_date": "2026-09-18",
       "return_date": "2026-09-20",
@@ -5210,6 +5812,20 @@
       "scanned_at": "2026-07-27T16:02:54.804256+00:00"
     },
     {
+      "origin": "OAK",
+      "destination": "LGA",
+      "depart_date": "2026-10-30",
+      "return_date": "2026-11-01",
+      "price": 408,
+      "outbound_departure_time": "05:50 PDT",
+      "outbound_arrival_time": "21:25 EDT",
+      "duration_minutes": 755,
+      "duration_label": "12h 35m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610368+00:00"
+    },
+    {
       "origin": "SMF",
       "destination": "EWR",
       "depart_date": "2026-09-17",
@@ -5236,6 +5852,20 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-20T15:29:44.848482+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "EWR",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-02",
+      "price": 409,
+      "outbound_departure_time": "06:00 PDT",
+      "outbound_arrival_time": "19:25 EDT",
+      "duration_minutes": 625,
+      "duration_label": "10h 25m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610429+00:00"
     },
     {
       "origin": "OAK",
@@ -5420,6 +6050,34 @@
       "scanned_at": "2026-07-20T15:29:44.848159+00:00"
     },
     {
+      "origin": "SFO",
+      "destination": "EWR",
+      "depart_date": "2026-10-15",
+      "return_date": "2026-10-18",
+      "price": 413,
+      "outbound_departure_time": "18:35 PDT",
+      "outbound_arrival_time": "12:27 EDT",
+      "duration_minutes": 892,
+      "duration_label": "14h 52m",
+      "match_type": "exact",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610132+00:00"
+    },
+    {
+      "origin": "OAK",
+      "destination": "LGA",
+      "depart_date": "2026-10-28",
+      "return_date": "2026-11-01",
+      "price": 413,
+      "outbound_departure_time": "08:10 PDT",
+      "outbound_arrival_time": "20:50 EDT",
+      "duration_minutes": 580,
+      "duration_label": "9h 40m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610335+00:00"
+    },
+    {
       "origin": "SMF",
       "destination": "EWR",
       "depart_date": "2026-09-25",
@@ -5446,6 +6104,20 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-13T16:05:15.076868+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "EWR",
+      "depart_date": "2026-10-01",
+      "return_date": "2026-10-03",
+      "price": 414,
+      "outbound_departure_time": "19:08 PDT",
+      "outbound_arrival_time": "09:49 EDT",
+      "duration_minutes": 701,
+      "duration_label": "11h 41m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610047+00:00"
     },
     {
       "origin": "SMF",
@@ -5686,18 +6358,18 @@
       "scanned_at": "2026-07-20T15:29:44.848149+00:00"
     },
     {
-      "origin": "SJC",
-      "destination": "EWR",
-      "depart_date": "2026-10-01",
-      "return_date": "2026-10-03",
-      "price": 418,
-      "outbound_departure_time": "06:00 PDT",
-      "outbound_arrival_time": "19:15 EDT",
-      "duration_minutes": 615,
-      "duration_label": "10h 15m",
+      "origin": "OAK",
+      "destination": "JFK",
+      "depart_date": "2026-08-27",
+      "return_date": "2026-08-29",
+      "price": 417,
+      "outbound_departure_time": "15:13 PDT",
+      "outbound_arrival_time": "22:59 EDT",
+      "duration_minutes": 1726,
+      "duration_label": "28h 46m",
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-06T16:42:57.704945+00:00"
+      "scanned_at": "2026-08-03T16:03:36.609818+00:00"
     },
     {
       "origin": "SJC",
@@ -5728,6 +6400,48 @@
       "scanned_at": "2026-07-20T15:29:44.848278+00:00"
     },
     {
+      "origin": "SJC",
+      "destination": "JFK",
+      "depart_date": "2026-09-17",
+      "return_date": "2026-09-21",
+      "price": 418,
+      "outbound_departure_time": "12:51 PDT",
+      "outbound_arrival_time": "00:59 EDT",
+      "duration_minutes": 548,
+      "duration_label": "9h 8m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.609963+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "JFK",
+      "depart_date": "2026-08-27",
+      "return_date": "2026-08-29",
+      "price": 418,
+      "outbound_departure_time": "11:38 PDT",
+      "outbound_arrival_time": "23:40 EDT",
+      "duration_minutes": 542,
+      "duration_label": "9h 2m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.609823+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "JFK",
+      "depart_date": "2026-10-15",
+      "return_date": "2026-10-19",
+      "price": 418,
+      "outbound_departure_time": "06:00 PDT",
+      "outbound_arrival_time": "18:00 EDT",
+      "duration_minutes": 540,
+      "duration_label": "9h 0m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610196+00:00"
+    },
+    {
       "origin": "SFO",
       "destination": "EWR",
       "depart_date": "2026-08-13",
@@ -5754,6 +6468,48 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-20T15:29:44.848683+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "EWR",
+      "depart_date": "2026-09-04",
+      "return_date": "2026-09-06",
+      "price": 420,
+      "outbound_departure_time": "18:37 PDT",
+      "outbound_arrival_time": "14:30 EDT",
+      "duration_minutes": 1013,
+      "duration_label": "16h 53m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.609859+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "EWR",
+      "depart_date": "2026-10-07",
+      "return_date": "2026-10-11",
+      "price": 421,
+      "outbound_departure_time": "05:30 PDT",
+      "outbound_arrival_time": "16:30 EDT",
+      "duration_minutes": 480,
+      "duration_label": "8h 0m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610082+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "EWR",
+      "depart_date": "2026-10-09",
+      "return_date": "2026-10-11",
+      "price": 421,
+      "outbound_departure_time": "18:35 PDT",
+      "outbound_arrival_time": "12:27 EDT",
+      "duration_minutes": 892,
+      "duration_label": "14h 52m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610100+00:00"
     },
     {
       "origin": "SJC",
@@ -5896,6 +6652,34 @@
       "scanned_at": "2026-07-13T16:05:15.077702+00:00"
     },
     {
+      "origin": "SMF",
+      "destination": "JFK",
+      "depart_date": "2026-10-21",
+      "return_date": "2026-10-25",
+      "price": 422,
+      "outbound_departure_time": "11:06 PDT",
+      "outbound_arrival_time": "22:25 EDT",
+      "duration_minutes": 499,
+      "duration_label": "8h 19m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610213+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "JFK",
+      "depart_date": "2026-10-23",
+      "return_date": "2026-10-25",
+      "price": 422,
+      "outbound_departure_time": "18:52 PDT",
+      "outbound_arrival_time": "07:05 EDT",
+      "duration_minutes": 553,
+      "duration_label": "9h 13m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610240+00:00"
+    },
+    {
       "origin": "SJC",
       "destination": "LGA",
       "depart_date": "2026-07-16",
@@ -5964,20 +6748,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-20T15:29:44.848726+00:00"
-    },
-    {
-      "origin": "OAK",
-      "destination": "JFK",
-      "depart_date": "2026-08-27",
-      "return_date": "2026-08-29",
-      "price": 425,
-      "outbound_departure_time": "17:10 PDT",
-      "outbound_arrival_time": "22:59 EDT",
-      "duration_minutes": 1609,
-      "duration_label": "26h 49m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-06T16:42:57.704317+00:00"
     },
     {
       "origin": "OAK",
@@ -6078,6 +6848,20 @@
       "scanned_at": "2026-07-20T15:29:44.848452+00:00"
     },
     {
+      "origin": "OAK",
+      "destination": "JFK",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-10-31",
+      "price": 426,
+      "outbound_departure_time": "07:04 PDT",
+      "outbound_arrival_time": "22:59 EDT",
+      "duration_minutes": 775,
+      "duration_label": "12h 55m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610388+00:00"
+    },
+    {
       "origin": "SFO",
       "destination": "LGA",
       "depart_date": "2026-07-23",
@@ -6122,20 +6906,6 @@
     {
       "origin": "SFO",
       "destination": "JFK",
-      "depart_date": "2026-10-15",
-      "return_date": "2026-10-19",
-      "price": 427,
-      "outbound_departure_time": "11:50 PDT",
-      "outbound_arrival_time": "20:33 EDT",
-      "duration_minutes": 343,
-      "duration_label": "5h 43m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-20T15:29:44.848712+00:00"
-    },
-    {
-      "origin": "SFO",
-      "destination": "JFK",
       "depart_date": "2026-10-08",
       "return_date": "2026-10-12",
       "price": 427,
@@ -6150,30 +6920,72 @@
     {
       "origin": "SMF",
       "destination": "JFK",
-      "depart_date": "2026-10-21",
-      "return_date": "2026-10-25",
+      "depart_date": "2026-10-07",
+      "return_date": "2026-10-11",
       "price": 427,
-      "outbound_departure_time": "11:07 PDT",
-      "outbound_arrival_time": "22:25 EDT",
-      "duration_minutes": 498,
-      "duration_label": "8h 18m",
+      "outbound_departure_time": "19:20 PDT",
+      "outbound_arrival_time": "09:29 EDT",
+      "duration_minutes": 669,
+      "duration_label": "11h 9m",
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-27T16:02:54.804291+00:00"
+      "scanned_at": "2026-08-03T16:03:36.610096+00:00"
     },
     {
-      "origin": "OAK",
-      "destination": "LGA",
-      "depart_date": "2026-10-22",
-      "return_date": "2026-10-26",
+      "origin": "SJC",
+      "destination": "JFK",
+      "depart_date": "2026-09-10",
+      "return_date": "2026-09-13",
       "price": 427,
-      "outbound_departure_time": "05:00 PDT",
-      "outbound_arrival_time": "20:15 EDT",
-      "duration_minutes": 735,
-      "duration_label": "12h 15m",
+      "outbound_departure_time": "07:00 PDT",
+      "outbound_arrival_time": "18:34 EDT",
+      "duration_minutes": 514,
+      "duration_label": "8h 34m",
+      "match_type": "exact",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.609880+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "JFK",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-01",
+      "price": 427,
+      "outbound_departure_time": "07:00 PDT",
+      "outbound_arrival_time": "19:16 EDT",
+      "duration_minutes": 556,
+      "duration_label": "9h 16m",
+      "match_type": "exact",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610313+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "JFK",
+      "depart_date": "2026-10-28",
+      "return_date": "2026-11-01",
+      "price": 427,
+      "outbound_departure_time": "07:00 PDT",
+      "outbound_arrival_time": "20:06 EDT",
+      "duration_minutes": 606,
+      "duration_label": "10h 6m",
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-27T16:02:54.804340+00:00"
+      "scanned_at": "2026-08-03T16:03:36.610340+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "JFK",
+      "depart_date": "2026-10-30",
+      "return_date": "2026-11-01",
+      "price": 427,
+      "outbound_departure_time": "11:36 PDT",
+      "outbound_arrival_time": "23:57 EDT",
+      "duration_minutes": 561,
+      "duration_label": "9h 21m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610371+00:00"
     },
     {
       "origin": "SFO",
@@ -6275,6 +7087,48 @@
     },
     {
       "origin": "SJC",
+      "destination": "JFK",
+      "depart_date": "2026-10-02",
+      "return_date": "2026-10-04",
+      "price": 428,
+      "outbound_departure_time": "07:00 PDT",
+      "outbound_arrival_time": "19:54 EDT",
+      "duration_minutes": 594,
+      "duration_label": "9h 54m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610034+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "JFK",
+      "depart_date": "2026-09-30",
+      "return_date": "2026-10-04",
+      "price": 428,
+      "outbound_departure_time": "07:00 PDT",
+      "outbound_arrival_time": "18:34 EDT",
+      "duration_minutes": 514,
+      "duration_label": "8h 34m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610024+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "JFK",
+      "depart_date": "2026-09-16",
+      "return_date": "2026-09-20",
+      "price": 428,
+      "outbound_departure_time": "07:00 PDT",
+      "outbound_arrival_time": "19:50 EDT",
+      "duration_minutes": 590,
+      "duration_label": "9h 50m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.609938+00:00"
+    },
+    {
+      "origin": "SJC",
       "destination": "LGA",
       "depart_date": "2026-07-30",
       "return_date": "2026-08-03",
@@ -6286,34 +7140,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-06T16:42:57.703948+00:00"
-    },
-    {
-      "origin": "SJC",
-      "destination": "JFK",
-      "depart_date": "2026-10-02",
-      "return_date": "2026-10-04",
-      "price": 429,
-      "outbound_departure_time": "07:00 PDT",
-      "outbound_arrival_time": "20:48 EDT",
-      "duration_minutes": 648,
-      "duration_label": "10h 48m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077588+00:00"
-    },
-    {
-      "origin": "SJC",
-      "destination": "JFK",
-      "depart_date": "2026-09-30",
-      "return_date": "2026-10-04",
-      "price": 429,
-      "outbound_departure_time": "06:30 PDT",
-      "outbound_arrival_time": "20:08 EDT",
-      "duration_minutes": 638,
-      "duration_label": "10h 38m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077560+00:00"
     },
     {
       "origin": "SJC",
@@ -6414,20 +7240,6 @@
       "scanned_at": "2026-06-29T17:01:46.017974+00:00"
     },
     {
-      "origin": "SJC",
-      "destination": "JFK",
-      "depart_date": "2026-09-17",
-      "return_date": "2026-09-21",
-      "price": 432,
-      "outbound_departure_time": "07:00 PDT",
-      "outbound_arrival_time": "19:54 EDT",
-      "duration_minutes": 594,
-      "duration_label": "9h 54m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-06-29T17:01:46.018725+00:00"
-    },
-    {
       "origin": "SMF",
       "destination": "LGA",
       "depart_date": "2026-07-29",
@@ -6484,32 +7296,32 @@
       "scanned_at": "2026-07-13T16:05:15.077029+00:00"
     },
     {
-      "origin": "SFO",
-      "destination": "EWR",
-      "depart_date": "2026-10-15",
-      "return_date": "2026-10-18",
+      "origin": "SJC",
+      "destination": "JFK",
+      "depart_date": "2026-09-09",
+      "return_date": "2026-09-13",
       "price": 432,
-      "outbound_departure_time": "18:35 PDT",
-      "outbound_arrival_time": "12:27 EDT",
-      "duration_minutes": 892,
-      "duration_label": "14h 52m",
-      "match_type": "exact",
+      "outbound_departure_time": "06:00 PDT",
+      "outbound_arrival_time": "22:43 EDT",
+      "duration_minutes": 823,
+      "duration_label": "13h 43m",
+      "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-20T15:29:44.848577+00:00"
+      "scanned_at": "2026-08-03T16:03:36.609888+00:00"
     },
     {
       "origin": "SJC",
-      "destination": "EWR",
-      "depart_date": "2026-08-27",
-      "return_date": "2026-08-31",
-      "price": 433,
-      "outbound_departure_time": "14:10 PDT",
-      "outbound_arrival_time": "08:14 EDT",
-      "duration_minutes": 904,
-      "duration_label": "15h 4m",
+      "destination": "LGA",
+      "depart_date": "2026-10-28",
+      "return_date": "2026-11-01",
+      "price": 432,
+      "outbound_departure_time": "06:25 PDT",
+      "outbound_arrival_time": "17:15 EDT",
+      "duration_minutes": 470,
+      "duration_label": "7h 50m",
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077144+00:00"
+      "scanned_at": "2026-08-03T16:03:36.610345+00:00"
     },
     {
       "origin": "SFO",
@@ -6524,20 +7336,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-13T16:05:15.077718+00:00"
-    },
-    {
-      "origin": "SJC",
-      "destination": "JFK",
-      "depart_date": "2026-10-15",
-      "return_date": "2026-10-17",
-      "price": 433,
-      "outbound_departure_time": "15:51 PDT",
-      "outbound_arrival_time": "15:44 EDT",
-      "duration_minutes": 1253,
-      "duration_label": "20h 53m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-27T16:02:54.804201+00:00"
     },
     {
       "origin": "SJC",
@@ -6566,20 +7364,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-06-29T17:01:46.018536+00:00"
-    },
-    {
-      "origin": "SJC",
-      "destination": "JFK",
-      "depart_date": "2026-08-27",
-      "return_date": "2026-08-29",
-      "price": 435,
-      "outbound_departure_time": "20:17 PDT",
-      "outbound_arrival_time": "22:59 EDT",
-      "duration_minutes": 1422,
-      "duration_label": "23h 42m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-06T16:42:57.704323+00:00"
     },
     {
       "origin": "SJC",
@@ -6692,6 +7476,20 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-20T15:29:44.848266+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "LGA",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-01",
+      "price": 437,
+      "outbound_departure_time": "09:00 PDT",
+      "outbound_arrival_time": "23:10 EDT",
+      "duration_minutes": 670,
+      "duration_label": "11h 10m",
+      "match_type": "exact",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610315+00:00"
     },
     {
       "origin": "SMF",
@@ -6862,20 +7660,6 @@
       "scanned_at": "2026-07-13T16:05:15.076886+00:00"
     },
     {
-      "origin": "SJC",
-      "destination": "EWR",
-      "depart_date": "2026-10-02",
-      "return_date": "2026-10-04",
-      "price": 439,
-      "outbound_departure_time": "12:46 PDT",
-      "outbound_arrival_time": "01:10 EDT",
-      "duration_minutes": 564,
-      "duration_label": "9h 24m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077592+00:00"
-    },
-    {
       "origin": "SMF",
       "destination": "LGA",
       "depart_date": "2026-10-15",
@@ -6990,20 +7774,6 @@
     {
       "origin": "SJC",
       "destination": "JFK",
-      "depart_date": "2026-09-16",
-      "return_date": "2026-09-20",
-      "price": 443,
-      "outbound_departure_time": "07:25 PDT",
-      "outbound_arrival_time": "20:27 EDT",
-      "duration_minutes": 602,
-      "duration_label": "10h 2m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-06T16:42:57.704629+00:00"
-    },
-    {
-      "origin": "SJC",
-      "destination": "JFK",
       "depart_date": "2026-09-18",
       "return_date": "2026-09-20",
       "price": 443,
@@ -7042,6 +7812,34 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-27T16:02:54.804163+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "EWR",
+      "depart_date": "2026-10-23",
+      "return_date": "2026-10-25",
+      "price": 443,
+      "outbound_departure_time": "15:51 PDT",
+      "outbound_arrival_time": "17:19 EDT",
+      "duration_minutes": 1348,
+      "duration_label": "22h 28m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610237+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "EWR",
+      "depart_date": "2026-10-30",
+      "return_date": "2026-11-01",
+      "price": 443,
+      "outbound_departure_time": "09:44 PDT",
+      "outbound_arrival_time": "23:25 EDT",
+      "duration_minutes": 641,
+      "duration_label": "10h 41m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610373+00:00"
     },
     {
       "origin": "SJC",
@@ -7084,6 +7882,20 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-20T15:29:44.848547+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "EWR",
+      "depart_date": "2026-10-22",
+      "return_date": "2026-10-26",
+      "price": 444,
+      "outbound_departure_time": "19:16 PDT",
+      "outbound_arrival_time": "10:06 EDT",
+      "duration_minutes": 710,
+      "duration_label": "11h 50m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610286+00:00"
     },
     {
       "origin": "SFO",
@@ -7171,20 +7983,6 @@
     },
     {
       "origin": "SJC",
-      "destination": "EWR",
-      "depart_date": "2026-09-04",
-      "return_date": "2026-09-06",
-      "price": 447,
-      "outbound_departure_time": "12:42 PDT",
-      "outbound_arrival_time": "10:02 EDT",
-      "duration_minutes": 1100,
-      "duration_label": "18h 20m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-06-22T17:54:35.991272+00:00"
-    },
-    {
-      "origin": "SJC",
       "destination": "LGA",
       "depart_date": "2026-07-30",
       "return_date": "2026-08-01",
@@ -7196,20 +7994,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-06-29T17:01:46.017948+00:00"
-    },
-    {
-      "origin": "SFO",
-      "destination": "JFK",
-      "depart_date": "2026-10-15",
-      "return_date": "2026-10-18",
-      "price": 447,
-      "outbound_departure_time": "20:45 PDT",
-      "outbound_arrival_time": "05:23 EDT",
-      "duration_minutes": 338,
-      "duration_label": "5h 38m",
-      "match_type": "exact",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-20T15:29:44.848574+00:00"
     },
     {
       "origin": "SMF",
@@ -7266,6 +8050,20 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-27T16:02:54.804314+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "EWR",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-10-31",
+      "price": 447,
+      "outbound_departure_time": "07:00 PDT",
+      "outbound_arrival_time": "17:52 EDT",
+      "duration_minutes": 472,
+      "duration_label": "7h 52m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610406+00:00"
     },
     {
       "origin": "SFO",
@@ -7521,20 +8319,6 @@
     },
     {
       "origin": "SFO",
-      "destination": "EWR",
-      "depart_date": "2026-10-07",
-      "return_date": "2026-10-11",
-      "price": 452,
-      "outbound_departure_time": "18:35 PDT",
-      "outbound_arrival_time": "12:27 EDT",
-      "duration_minutes": 892,
-      "duration_label": "14h 52m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077686+00:00"
-    },
-    {
-      "origin": "SFO",
       "destination": "LGA",
       "depart_date": "2026-07-15",
       "return_date": "2026-07-19",
@@ -7731,17 +8515,73 @@
     },
     {
       "origin": "SMF",
-      "destination": "JFK",
-      "depart_date": "2026-10-07",
-      "return_date": "2026-10-11",
-      "price": 458,
-      "outbound_departure_time": "07:00 PDT",
-      "outbound_arrival_time": "21:00 EDT",
-      "duration_minutes": 660,
-      "duration_label": "11h 0m",
+      "destination": "EWR",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-01",
+      "price": 457,
+      "outbound_departure_time": "05:25 PDT",
+      "outbound_arrival_time": "16:29 EDT",
+      "duration_minutes": 484,
+      "duration_label": "8h 4m",
+      "match_type": "exact",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610320+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "EWR",
+      "depart_date": "2026-10-28",
+      "return_date": "2026-11-01",
+      "price": 457,
+      "outbound_departure_time": "05:25 PDT",
+      "outbound_arrival_time": "16:29 EDT",
+      "duration_minutes": 484,
+      "duration_label": "8h 4m",
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-27T16:02:54.804108+00:00"
+      "scanned_at": "2026-08-03T16:03:36.610350+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "EWR",
+      "depart_date": "2026-10-30",
+      "return_date": "2026-11-01",
+      "price": 457,
+      "outbound_departure_time": "10:55 PDT",
+      "outbound_arrival_time": "21:55 EDT",
+      "duration_minutes": 480,
+      "duration_label": "8h 0m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610381+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "EWR",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-02",
+      "price": 457,
+      "outbound_departure_time": "05:25 PDT",
+      "outbound_arrival_time": "16:29 EDT",
+      "duration_minutes": 484,
+      "duration_label": "8h 4m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610441+00:00"
+    },
+    {
+      "origin": "OAK",
+      "destination": "LGA",
+      "depart_date": "2026-10-23",
+      "return_date": "2026-10-25",
+      "price": 458,
+      "outbound_departure_time": "08:00 PDT",
+      "outbound_arrival_time": "22:10 EDT",
+      "duration_minutes": 670,
+      "duration_label": "11h 10m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610232+00:00"
     },
     {
       "origin": "SJC",
@@ -7756,6 +8596,34 @@
       "match_type": "exact",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-27T16:02:54.804248+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "JFK",
+      "depart_date": "2026-10-21",
+      "return_date": "2026-10-25",
+      "price": 459,
+      "outbound_departure_time": "06:00 PDT",
+      "outbound_arrival_time": "18:00 EDT",
+      "duration_minutes": 540,
+      "duration_label": "9h 0m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610209+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "JFK",
+      "depart_date": "2026-10-23",
+      "return_date": "2026-10-25",
+      "price": 459,
+      "outbound_departure_time": "06:00 PDT",
+      "outbound_arrival_time": "18:00 EDT",
+      "duration_minutes": 540,
+      "duration_label": "9h 0m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610235+00:00"
     },
     {
       "origin": "SMF",
@@ -7798,20 +8666,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-06-22T17:54:35.990836+00:00"
-    },
-    {
-      "origin": "SJC",
-      "destination": "JFK",
-      "depart_date": "2026-10-15",
-      "return_date": "2026-10-19",
-      "price": 461,
-      "outbound_departure_time": "12:54 PDT",
-      "outbound_arrival_time": "00:59 EDT",
-      "duration_minutes": 545,
-      "duration_label": "9h 5m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-27T16:02:54.804220+00:00"
     },
     {
       "origin": "SJC",
@@ -7896,6 +8750,76 @@
       "match_type": "exact",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-27T16:02:54.804146+00:00"
+    },
+    {
+      "origin": "SFO",
+      "destination": "EWR",
+      "depart_date": "2026-10-08",
+      "return_date": "2026-10-12",
+      "price": 462,
+      "outbound_departure_time": "18:35 PDT",
+      "outbound_arrival_time": "12:27 EDT",
+      "duration_minutes": 892,
+      "duration_label": "14h 52m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610122+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "LGA",
+      "depart_date": "2026-10-23",
+      "return_date": "2026-10-25",
+      "price": 462,
+      "outbound_departure_time": "12:10 PDT",
+      "outbound_arrival_time": "22:55 EDT",
+      "duration_minutes": 465,
+      "duration_label": "7h 45m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610245+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "EWR",
+      "depart_date": "2026-10-28",
+      "return_date": "2026-11-01",
+      "price": 462,
+      "outbound_departure_time": "08:45 PDT",
+      "outbound_arrival_time": "21:55 EDT",
+      "duration_minutes": 610,
+      "duration_label": "10h 10m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610342+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "LGA",
+      "depart_date": "2026-10-30",
+      "return_date": "2026-11-01",
+      "price": 462,
+      "outbound_departure_time": "19:16 PDT",
+      "outbound_arrival_time": "09:00 EDT",
+      "duration_minutes": 644,
+      "duration_label": "10h 44m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610376+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "JFK",
+      "depart_date": "2026-10-07",
+      "return_date": "2026-10-11",
+      "price": 463,
+      "outbound_departure_time": "19:16 PDT",
+      "outbound_arrival_time": "09:29 EDT",
+      "duration_minutes": 673,
+      "duration_label": "11h 13m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610086+00:00"
     },
     {
       "origin": "SFO",
@@ -8206,6 +9130,20 @@
       "scanned_at": "2026-07-20T15:29:44.848201+00:00"
     },
     {
+      "origin": "SMF",
+      "destination": "JFK",
+      "depart_date": "2026-10-16",
+      "return_date": "2026-10-18",
+      "price": 467,
+      "outbound_departure_time": "18:16 PDT",
+      "outbound_arrival_time": "05:59 EDT",
+      "duration_minutes": 523,
+      "duration_label": "8h 43m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610161+00:00"
+    },
+    {
       "origin": "OAK",
       "destination": "EWR",
       "depart_date": "2026-07-23",
@@ -8292,16 +9230,16 @@
     {
       "origin": "SFO",
       "destination": "EWR",
-      "depart_date": "2026-10-09",
+      "depart_date": "2026-10-08",
       "return_date": "2026-10-11",
       "price": 470,
-      "outbound_departure_time": "11:39 PDT",
-      "outbound_arrival_time": "23:25 EDT",
-      "duration_minutes": 526,
-      "duration_label": "8h 46m",
-      "match_type": "near",
+      "outbound_departure_time": "18:35 PDT",
+      "outbound_arrival_time": "12:27 EDT",
+      "duration_minutes": 892,
+      "duration_label": "14h 52m",
+      "match_type": "exact",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077716+00:00"
+      "scanned_at": "2026-08-03T16:03:36.610067+00:00"
     },
     {
       "origin": "SMF",
@@ -8738,6 +9676,34 @@
       "scanned_at": "2026-07-27T16:02:54.804275+00:00"
     },
     {
+      "origin": "OAK",
+      "destination": "EWR",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-02",
+      "price": 478,
+      "outbound_departure_time": "19:53 PDT",
+      "outbound_arrival_time": "16:43 EDT",
+      "duration_minutes": 2510,
+      "duration_label": "41h 50m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610422+00:00"
+    },
+    {
+      "origin": "OAK",
+      "destination": "EWR",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-10-31",
+      "price": 479,
+      "outbound_departure_time": "19:53 PDT",
+      "outbound_arrival_time": "23:25 EDT",
+      "duration_minutes": 1472,
+      "duration_label": "24h 32m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610390+00:00"
+    },
+    {
       "origin": "SFO",
       "destination": "EWR",
       "depart_date": "2026-07-23",
@@ -8920,6 +9886,20 @@
       "scanned_at": "2026-07-20T15:29:44.848439+00:00"
     },
     {
+      "origin": "OAK",
+      "destination": "EWR",
+      "depart_date": "2026-10-30",
+      "return_date": "2026-11-01",
+      "price": 483,
+      "outbound_departure_time": "19:53 PDT",
+      "outbound_arrival_time": "05:56 EST",
+      "duration_minutes": 1923,
+      "duration_label": "32h 3m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610364+00:00"
+    },
+    {
       "origin": "SMF",
       "destination": "EWR",
       "depart_date": "2026-07-09",
@@ -9046,6 +10026,34 @@
       "scanned_at": "2026-06-29T17:01:46.017798+00:00"
     },
     {
+      "origin": "OAK",
+      "destination": "JFK",
+      "depart_date": "2026-10-15",
+      "return_date": "2026-10-18",
+      "price": 486,
+      "outbound_departure_time": "07:04 PDT",
+      "outbound_arrival_time": "22:59 EDT",
+      "duration_minutes": 2215,
+      "duration_label": "36h 55m",
+      "match_type": "exact",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610135+00:00"
+    },
+    {
+      "origin": "OAK",
+      "destination": "EWR",
+      "depart_date": "2026-10-22",
+      "return_date": "2026-10-24",
+      "price": 486,
+      "outbound_departure_time": "07:02 PDT",
+      "outbound_arrival_time": "23:25 EDT",
+      "duration_minutes": 803,
+      "duration_label": "13h 23m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610256+00:00"
+    },
+    {
       "origin": "SFO",
       "destination": "LGA",
       "depart_date": "2026-07-08",
@@ -9116,20 +10124,6 @@
       "scanned_at": "2026-07-20T15:29:44.848555+00:00"
     },
     {
-      "origin": "SJC",
-      "destination": "JFK",
-      "depart_date": "2026-09-09",
-      "return_date": "2026-09-13",
-      "price": 488,
-      "outbound_departure_time": "08:29 PDT",
-      "outbound_arrival_time": "22:59 EDT",
-      "duration_minutes": 690,
-      "duration_label": "11h 30m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-06-22T17:54:35.991395+00:00"
-    },
-    {
       "origin": "OAK",
       "destination": "EWR",
       "depart_date": "2026-10-15",
@@ -9142,20 +10136,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-20T15:29:44.848692+00:00"
-    },
-    {
-      "origin": "SJC",
-      "destination": "JFK",
-      "depart_date": "2026-10-21",
-      "return_date": "2026-10-25",
-      "price": 488,
-      "outbound_departure_time": "07:55 PDT",
-      "outbound_arrival_time": "19:25 EDT",
-      "duration_minutes": 510,
-      "duration_label": "8h 30m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-27T16:02:54.804280+00:00"
     },
     {
       "origin": "SJC",
@@ -9242,20 +10222,6 @@
       "scanned_at": "2026-07-13T16:05:15.077523+00:00"
     },
     {
-      "origin": "SMF",
-      "destination": "JFK",
-      "depart_date": "2026-10-16",
-      "return_date": "2026-10-18",
-      "price": 490,
-      "outbound_departure_time": "08:03 PDT",
-      "outbound_arrival_time": "19:25 EDT",
-      "duration_minutes": 502,
-      "duration_label": "8h 22m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-20T15:29:44.848680+00:00"
-    },
-    {
       "origin": "OAK",
       "destination": "LGA",
       "depart_date": "2026-07-23",
@@ -9296,6 +10262,20 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-20T15:29:44.848567+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "JFK",
+      "depart_date": "2026-10-15",
+      "return_date": "2026-10-18",
+      "price": 491,
+      "outbound_departure_time": "11:36 PDT",
+      "outbound_arrival_time": "23:42 EDT",
+      "duration_minutes": 546,
+      "duration_label": "9h 6m",
+      "match_type": "exact",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610141+00:00"
     },
     {
       "origin": "SFO",
@@ -9380,20 +10360,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-06-22T17:54:35.990053+00:00"
-    },
-    {
-      "origin": "SJC",
-      "destination": "JFK",
-      "depart_date": "2026-09-10",
-      "return_date": "2026-09-13",
-      "price": 493,
-      "outbound_departure_time": "17:40 PDT",
-      "outbound_arrival_time": "06:53 EDT",
-      "duration_minutes": 613,
-      "duration_label": "10h 13m",
-      "match_type": "exact",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-06T16:42:57.704505+00:00"
     },
     {
       "origin": "SMF",
@@ -9550,6 +10516,20 @@
       "scanned_at": "2026-07-13T16:05:15.077733+00:00"
     },
     {
+      "origin": "SMF",
+      "destination": "JFK",
+      "depart_date": "2026-10-09",
+      "return_date": "2026-10-11",
+      "price": 497,
+      "outbound_departure_time": "07:00 PDT",
+      "outbound_arrival_time": "22:59 EDT",
+      "duration_minutes": 779,
+      "duration_label": "12h 59m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610108+00:00"
+    },
+    {
       "origin": "SFO",
       "destination": "LGA",
       "depart_date": "2026-07-02",
@@ -9604,6 +10584,20 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-20T15:29:44.848621+00:00"
+    },
+    {
+      "origin": "OAK",
+      "destination": "EWR",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-01",
+      "price": 498,
+      "outbound_departure_time": "19:53 PDT",
+      "outbound_arrival_time": "16:43 EDT",
+      "duration_minutes": 2510,
+      "duration_label": "41h 50m",
+      "match_type": "exact",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610304+00:00"
     },
     {
       "origin": "SJC",
@@ -9709,13 +10703,13 @@
       "depart_date": "2026-08-20",
       "return_date": "2026-08-23",
       "price": 499,
-      "outbound_departure_time": "07:00 PDT",
+      "outbound_departure_time": "06:40 PDT",
       "outbound_arrival_time": "19:52 EDT",
-      "duration_minutes": 592,
-      "duration_label": "9h 52m",
+      "duration_minutes": 612,
+      "duration_label": "10h 12m",
       "match_type": "exact",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-20T15:29:44.848099+00:00"
+      "scanned_at": "2026-08-03T16:03:36.609752+00:00"
     },
     {
       "origin": "OAK",
@@ -9900,18 +10894,18 @@
       "scanned_at": "2026-06-22T17:54:35.990019+00:00"
     },
     {
-      "origin": "SJC",
-      "destination": "JFK",
-      "depart_date": "2026-10-15",
-      "return_date": "2026-10-18",
+      "origin": "OAK",
+      "destination": "EWR",
+      "depart_date": "2026-10-23",
+      "return_date": "2026-10-25",
       "price": 503,
-      "outbound_departure_time": "15:51 PDT",
-      "outbound_arrival_time": "15:44 EDT",
-      "duration_minutes": 1253,
-      "duration_label": "20h 53m",
-      "match_type": "exact",
+      "outbound_departure_time": "07:04 PDT",
+      "outbound_arrival_time": "17:19 EDT",
+      "duration_minutes": 1875,
+      "duration_label": "31h 15m",
+      "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-27T16:02:54.804148+00:00"
+      "scanned_at": "2026-08-03T16:03:36.610230+00:00"
     },
     {
       "origin": "SJC",
@@ -9942,18 +10936,18 @@
       "scanned_at": "2026-06-22T17:54:35.990027+00:00"
     },
     {
-      "origin": "SMF",
-      "destination": "JFK",
-      "depart_date": "2026-10-15",
-      "return_date": "2026-10-18",
-      "price": 504,
-      "outbound_departure_time": "23:59 PDT",
-      "outbound_arrival_time": "12:29 EDT",
-      "duration_minutes": 570,
-      "duration_label": "9h 30m",
-      "match_type": "exact",
+      "origin": "OAK",
+      "destination": "EWR",
+      "depart_date": "2026-10-28",
+      "return_date": "2026-11-01",
+      "price": 505,
+      "outbound_departure_time": "19:10 PDT",
+      "outbound_arrival_time": "23:25 EDT",
+      "duration_minutes": 1515,
+      "duration_label": "25h 15m",
+      "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-20T15:29:44.848601+00:00"
+      "scanned_at": "2026-08-03T16:03:36.610333+00:00"
     },
     {
       "origin": "SMF",
@@ -10010,6 +11004,20 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-20T15:29:44.848257+00:00"
+    },
+    {
+      "origin": "OAK",
+      "destination": "JFK",
+      "depart_date": "2026-08-27",
+      "return_date": "2026-08-30",
+      "price": 506,
+      "outbound_departure_time": "15:13 PDT",
+      "outbound_arrival_time": "22:59 EDT",
+      "duration_minutes": 1726,
+      "duration_label": "28h 46m",
+      "match_type": "exact",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.609792+00:00"
     },
     {
       "origin": "OAK",
@@ -10083,6 +11091,34 @@
     },
     {
       "origin": "SMF",
+      "destination": "EWR",
+      "depart_date": "2026-10-16",
+      "return_date": "2026-10-18",
+      "price": 507,
+      "outbound_departure_time": "18:51 PDT",
+      "outbound_arrival_time": "06:59 EDT",
+      "duration_minutes": 548,
+      "duration_label": "9h 8m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610164+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "EWR",
+      "depart_date": "2026-10-23",
+      "return_date": "2026-10-25",
+      "price": 507,
+      "outbound_departure_time": "18:51 PDT",
+      "outbound_arrival_time": "06:59 EDT",
+      "duration_minutes": 548,
+      "duration_label": "9h 8m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610243+00:00"
+    },
+    {
+      "origin": "SMF",
       "destination": "JFK",
       "depart_date": "2026-07-29",
       "return_date": "2026-08-02",
@@ -10122,6 +11158,20 @@
       "match_type": "exact",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-20T15:29:44.848496+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "EWR",
+      "depart_date": "2026-10-08",
+      "return_date": "2026-10-10",
+      "price": 508,
+      "outbound_departure_time": "09:44 PDT",
+      "outbound_arrival_time": "23:25 EDT",
+      "duration_minutes": 641,
+      "duration_label": "10h 41m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610117+00:00"
     },
     {
       "origin": "SMF",
@@ -10181,20 +11231,6 @@
     },
     {
       "origin": "SMF",
-      "destination": "JFK",
-      "depart_date": "2026-10-09",
-      "return_date": "2026-10-11",
-      "price": 511,
-      "outbound_departure_time": "19:59 PDT",
-      "outbound_arrival_time": "15:44 EDT",
-      "duration_minutes": 1005,
-      "duration_label": "16h 45m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-20T15:29:44.848531+00:00"
-    },
-    {
-      "origin": "SMF",
       "destination": "EWR",
       "depart_date": "2026-07-30",
       "return_date": "2026-08-01",
@@ -10236,20 +11272,6 @@
       "scanned_at": "2026-07-13T16:05:15.077728+00:00"
     },
     {
-      "origin": "SJC",
-      "destination": "EWR",
-      "depart_date": "2026-10-08",
-      "return_date": "2026-10-10",
-      "price": 513,
-      "outbound_departure_time": "17:18 PDT",
-      "outbound_arrival_time": "17:19 EDT",
-      "duration_minutes": 1261,
-      "duration_label": "21h 1m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077766+00:00"
-    },
-    {
       "origin": "OAK",
       "destination": "EWR",
       "depart_date": "2026-09-11",
@@ -10262,6 +11284,20 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-06-29T17:01:46.018556+00:00"
+    },
+    {
+      "origin": "OAK",
+      "destination": "EWR",
+      "depart_date": "2026-10-22",
+      "return_date": "2026-10-26",
+      "price": 514,
+      "outbound_departure_time": "07:02 PDT",
+      "outbound_arrival_time": "06:59 EDT",
+      "duration_minutes": 1257,
+      "duration_label": "20h 57m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610276+00:00"
     },
     {
       "origin": "SFO",
@@ -10418,6 +11454,20 @@
       "scanned_at": "2026-06-29T17:01:46.018151+00:00"
     },
     {
+      "origin": "OAK",
+      "destination": "JFK",
+      "depart_date": "2026-10-14",
+      "return_date": "2026-10-18",
+      "price": 518,
+      "outbound_departure_time": "08:10 PDT",
+      "outbound_arrival_time": "22:29 EDT",
+      "duration_minutes": 679,
+      "duration_label": "11h 19m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610149+00:00"
+    },
+    {
       "origin": "SJC",
       "destination": "EWR",
       "depart_date": "2026-08-06",
@@ -10444,6 +11494,20 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-13T16:05:15.076779+00:00"
+    },
+    {
+      "origin": "SMF",
+      "destination": "EWR",
+      "depart_date": "2026-10-09",
+      "return_date": "2026-10-11",
+      "price": 519,
+      "outbound_departure_time": "10:12 PDT",
+      "outbound_arrival_time": "21:57 EDT",
+      "duration_minutes": 525,
+      "duration_label": "8h 45m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610111+00:00"
     },
     {
       "origin": "OAK",
@@ -10514,34 +11578,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-06-22T17:54:35.990285+00:00"
-    },
-    {
-      "origin": "OAK",
-      "destination": "JFK",
-      "depart_date": "2026-08-27",
-      "return_date": "2026-08-30",
-      "price": 522,
-      "outbound_departure_time": "15:13 PDT",
-      "outbound_arrival_time": "22:59 EDT",
-      "duration_minutes": 1726,
-      "duration_label": "28h 46m",
-      "match_type": "exact",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077074+00:00"
-    },
-    {
-      "origin": "SFO",
-      "destination": "EWR",
-      "depart_date": "2026-10-08",
-      "return_date": "2026-10-11",
-      "price": 522,
-      "outbound_departure_time": "18:35 PDT",
-      "outbound_arrival_time": "12:27 EDT",
-      "duration_minutes": 892,
-      "duration_label": "14h 52m",
-      "match_type": "exact",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077648+00:00"
     },
     {
       "origin": "SJC",
@@ -10684,18 +11720,32 @@
       "scanned_at": "2026-06-29T17:01:46.017654+00:00"
     },
     {
-      "origin": "SMF",
-      "destination": "EWR",
-      "depart_date": "2026-10-16",
-      "return_date": "2026-10-18",
+      "origin": "OAK",
+      "destination": "JFK",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-01",
       "price": 528,
-      "outbound_departure_time": "06:02 PDT",
-      "outbound_arrival_time": "18:29 EDT",
-      "duration_minutes": 567,
-      "duration_label": "9h 27m",
+      "outbound_departure_time": "15:14 PDT",
+      "outbound_arrival_time": "22:59 EDT",
+      "duration_minutes": 1725,
+      "duration_label": "28h 45m",
+      "match_type": "exact",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610302+00:00"
+    },
+    {
+      "origin": "OAK",
+      "destination": "JFK",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-02",
+      "price": 528,
+      "outbound_departure_time": "15:14 PDT",
+      "outbound_arrival_time": "22:59 EDT",
+      "duration_minutes": 1725,
+      "duration_label": "28h 45m",
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-27T16:02:54.804183+00:00"
+      "scanned_at": "2026-08-03T16:03:36.610419+00:00"
     },
     {
       "origin": "SFO",
@@ -10710,6 +11760,20 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-06-22T17:54:35.990440+00:00"
+    },
+    {
+      "origin": "SJC",
+      "destination": "EWR",
+      "depart_date": "2026-10-07",
+      "return_date": "2026-10-11",
+      "price": 529,
+      "outbound_departure_time": "06:00 PDT",
+      "outbound_arrival_time": "19:25 EDT",
+      "duration_minutes": 625,
+      "duration_label": "10h 25m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610089+00:00"
     },
     {
       "origin": "OAK",
@@ -10780,20 +11844,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-06T16:42:57.704296+00:00"
-    },
-    {
-      "origin": "OAK",
-      "destination": "JFK",
-      "depart_date": "2026-10-15",
-      "return_date": "2026-10-18",
-      "price": 530,
-      "outbound_departure_time": "17:05 PDT",
-      "outbound_arrival_time": "22:59 EDT",
-      "duration_minutes": 1614,
-      "duration_label": "26h 54m",
-      "match_type": "exact",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-20T15:29:44.848585+00:00"
     },
     {
       "origin": "SJC",
@@ -10908,6 +11958,20 @@
       "scanned_at": "2026-06-22T17:54:35.990185+00:00"
     },
     {
+      "origin": "OAK",
+      "destination": "LGA",
+      "depart_date": "2026-10-29",
+      "return_date": "2026-11-01",
+      "price": 532,
+      "outbound_departure_time": "23:55 PDT",
+      "outbound_arrival_time": "11:25 EDT",
+      "duration_minutes": 510,
+      "duration_label": "8h 30m",
+      "match_type": "exact",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610307+00:00"
+    },
+    {
       "origin": "SJC",
       "destination": "LGA",
       "depart_date": "2026-07-03",
@@ -10964,6 +12028,20 @@
       "scanned_at": "2026-07-13T16:05:15.077693+00:00"
     },
     {
+      "origin": "SJC",
+      "destination": "LGA",
+      "depart_date": "2026-10-08",
+      "return_date": "2026-10-11",
+      "price": 534,
+      "outbound_departure_time": "18:15 PDT",
+      "outbound_arrival_time": "09:45 EDT",
+      "duration_minutes": 750,
+      "duration_label": "12h 30m",
+      "match_type": "exact",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610075+00:00"
+    },
+    {
       "origin": "SMF",
       "destination": "LGA",
       "depart_date": "2026-07-03",
@@ -10976,20 +12054,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-06-22T17:54:35.989803+00:00"
-    },
-    {
-      "origin": "SMF",
-      "destination": "EWR",
-      "depart_date": "2026-10-09",
-      "return_date": "2026-10-11",
-      "price": 535,
-      "outbound_departure_time": "10:12 PDT",
-      "outbound_arrival_time": "21:52 EDT",
-      "duration_minutes": 520,
-      "duration_label": "8h 40m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077740+00:00"
     },
     {
       "origin": "SMF",
@@ -11020,32 +12084,18 @@
       "scanned_at": "2026-06-22T17:54:35.989989+00:00"
     },
     {
-      "origin": "SJC",
-      "destination": "LGA",
+      "origin": "SMF",
+      "destination": "JFK",
       "depart_date": "2026-10-08",
       "return_date": "2026-10-11",
       "price": 537,
-      "outbound_departure_time": "06:00 PDT",
-      "outbound_arrival_time": "20:15 EDT",
-      "duration_minutes": 675,
-      "duration_label": "11h 15m",
+      "outbound_departure_time": "09:55 PDT",
+      "outbound_arrival_time": "21:00 EDT",
+      "duration_minutes": 485,
+      "duration_label": "8h 5m",
       "match_type": "exact",
       "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077670+00:00"
-    },
-    {
-      "origin": "SFO",
-      "destination": "EWR",
-      "depart_date": "2026-10-08",
-      "return_date": "2026-10-12",
-      "price": 537,
-      "outbound_departure_time": "05:00 PDT",
-      "outbound_arrival_time": "18:39 EDT",
-      "duration_minutes": 639,
-      "duration_label": "10h 39m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-20T15:29:44.848552+00:00"
+      "scanned_at": "2026-08-03T16:03:36.610078+00:00"
     },
     {
       "origin": "OAK",
@@ -11090,20 +12140,6 @@
       "scanned_at": "2026-07-13T16:05:15.077176+00:00"
     },
     {
-      "origin": "SJC",
-      "destination": "JFK",
-      "depart_date": "2026-10-07",
-      "return_date": "2026-10-11",
-      "price": 539,
-      "outbound_departure_time": "06:00 PDT",
-      "outbound_arrival_time": "18:00 EDT",
-      "duration_minutes": 540,
-      "duration_label": "9h 0m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-20T15:29:44.848513+00:00"
-    },
-    {
       "origin": "SFO",
       "destination": "EWR",
       "depart_date": "2026-07-09",
@@ -11130,6 +12166,20 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-13T16:05:15.077795+00:00"
+    },
+    {
+      "origin": "OAK",
+      "destination": "JFK",
+      "depart_date": "2026-10-28",
+      "return_date": "2026-11-01",
+      "price": 540,
+      "outbound_departure_time": "08:10 PDT",
+      "outbound_arrival_time": "22:29 EDT",
+      "duration_minutes": 679,
+      "duration_label": "11h 19m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610330+00:00"
     },
     {
       "origin": "SJC",
@@ -11538,20 +12588,6 @@
       "scanned_at": "2026-07-13T16:05:15.076799+00:00"
     },
     {
-      "origin": "SJC",
-      "destination": "EWR",
-      "depart_date": "2026-10-07",
-      "return_date": "2026-10-11",
-      "price": 554,
-      "outbound_departure_time": "06:00 PDT",
-      "outbound_arrival_time": "19:25 EDT",
-      "duration_minutes": 625,
-      "duration_label": "10h 25m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-20T15:29:44.848516+00:00"
-    },
-    {
       "origin": "SFO",
       "destination": "LGA",
       "depart_date": "2026-06-25",
@@ -11592,20 +12628,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-20T15:29:44.847957+00:00"
-    },
-    {
-      "origin": "SMF",
-      "destination": "JFK",
-      "depart_date": "2026-10-08",
-      "return_date": "2026-10-11",
-      "price": 557,
-      "outbound_departure_time": "11:38 PDT",
-      "outbound_arrival_time": "23:55 EDT",
-      "duration_minutes": 557,
-      "duration_label": "9h 17m",
-      "match_type": "exact",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-27T16:02:54.804101+00:00"
     },
     {
       "origin": "SJC",
@@ -11874,6 +12896,20 @@
       "scanned_at": "2026-07-06T16:42:57.703786+00:00"
     },
     {
+      "origin": "OAK",
+      "destination": "JFK",
+      "depart_date": "2026-09-02",
+      "return_date": "2026-09-06",
+      "price": 566,
+      "outbound_departure_time": "17:10 PDT",
+      "outbound_arrival_time": "22:59 EDT",
+      "duration_minutes": 1609,
+      "duration_label": "26h 49m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.609844+00:00"
+    },
+    {
       "origin": "SFO",
       "destination": "EWR",
       "depart_date": "2026-06-24",
@@ -11930,6 +12966,20 @@
       "scanned_at": "2026-07-20T15:29:44.848032+00:00"
     },
     {
+      "origin": "OAK",
+      "destination": "JFK",
+      "depart_date": "2026-10-30",
+      "return_date": "2026-11-01",
+      "price": 568,
+      "outbound_departure_time": "07:02 PDT",
+      "outbound_arrival_time": "22:29 EDT",
+      "duration_minutes": 747,
+      "duration_label": "12h 27m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610360+00:00"
+    },
+    {
       "origin": "SMF",
       "destination": "LGA",
       "depart_date": "2026-06-25",
@@ -11956,20 +13006,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-06-22T17:54:35.991147+00:00"
-    },
-    {
-      "origin": "OAK",
-      "destination": "JFK",
-      "depart_date": "2026-10-14",
-      "return_date": "2026-10-18",
-      "price": 570,
-      "outbound_departure_time": "12:10 PDT",
-      "outbound_arrival_time": "19:25 EDT",
-      "duration_minutes": 1695,
-      "duration_label": "28h 15m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-20T15:29:44.848618+00:00"
     },
     {
       "origin": "SMF",
@@ -12040,6 +13076,20 @@
       "match_type": "exact",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-06-22T17:54:35.990734+00:00"
+    },
+    {
+      "origin": "OAK",
+      "destination": "LGA",
+      "depart_date": "2026-10-08",
+      "return_date": "2026-10-11",
+      "price": 577,
+      "outbound_departure_time": "20:15 PDT",
+      "outbound_arrival_time": "09:45 EDT",
+      "duration_minutes": 630,
+      "duration_label": "10h 30m",
+      "match_type": "exact",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610072+00:00"
     },
     {
       "origin": "OAK",
@@ -12197,20 +13247,6 @@
     },
     {
       "origin": "OAK",
-      "destination": "LGA",
-      "depart_date": "2026-10-08",
-      "return_date": "2026-10-11",
-      "price": 582,
-      "outbound_departure_time": "08:00 PDT",
-      "outbound_arrival_time": "20:50 EDT",
-      "duration_minutes": 590,
-      "duration_label": "9h 50m",
-      "match_type": "exact",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077660+00:00"
-    },
-    {
-      "origin": "OAK",
       "destination": "JFK",
       "depart_date": "2026-07-23",
       "return_date": "2026-07-27",
@@ -12250,20 +13286,6 @@
       "match_type": "exact",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-06T16:42:57.703821+00:00"
-    },
-    {
-      "origin": "OAK",
-      "destination": "JFK",
-      "depart_date": "2026-09-02",
-      "return_date": "2026-09-06",
-      "price": 583,
-      "outbound_departure_time": "15:13 PDT",
-      "outbound_arrival_time": "22:59 EDT",
-      "duration_minutes": 1726,
-      "duration_label": "28h 46m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077173+00:00"
     },
     {
       "origin": "OAK",
@@ -12938,6 +13960,20 @@
       "scanned_at": "2026-06-22T17:54:35.990505+00:00"
     },
     {
+      "origin": "SJC",
+      "destination": "EWR",
+      "depart_date": "2026-10-09",
+      "return_date": "2026-10-11",
+      "price": 623,
+      "outbound_departure_time": "20:06 PDT",
+      "outbound_arrival_time": "17:19 EDT",
+      "duration_minutes": 1093,
+      "duration_label": "18h 13m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610105+00:00"
+    },
+    {
       "origin": "OAK",
       "destination": "EWR",
       "depart_date": "2026-07-23",
@@ -13034,20 +14070,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-07-20T15:29:44.848213+00:00"
-    },
-    {
-      "origin": "SJC",
-      "destination": "EWR",
-      "depart_date": "2026-10-09",
-      "return_date": "2026-10-11",
-      "price": 627,
-      "outbound_departure_time": "22:40 PDT",
-      "outbound_arrival_time": "12:16 EDT",
-      "duration_minutes": 636,
-      "duration_label": "10h 36m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-13T16:05:15.077731+00:00"
     },
     {
       "origin": "SJC",
@@ -14479,6 +15501,20 @@
     },
     {
       "origin": "OAK",
+      "destination": "JFK",
+      "depart_date": "2026-10-21",
+      "return_date": "2026-10-25",
+      "price": 889,
+      "outbound_departure_time": "12:41 PDT",
+      "outbound_arrival_time": "23:40 EDT",
+      "duration_minutes": 479,
+      "duration_label": "7h 59m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610206+00:00"
+    },
+    {
+      "origin": "OAK",
       "destination": "EWR",
       "depart_date": "2026-07-02",
       "return_date": "2026-07-04",
@@ -14592,20 +15628,6 @@
     {
       "origin": "OAK",
       "destination": "JFK",
-      "depart_date": "2026-10-21",
-      "return_date": "2026-10-25",
-      "price": 967,
-      "outbound_departure_time": "06:00 PDT",
-      "outbound_arrival_time": "20:30 EDT",
-      "duration_minutes": 690,
-      "duration_label": "11h 30m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-27T16:02:54.804273+00:00"
-    },
-    {
-      "origin": "OAK",
-      "destination": "JFK",
       "depart_date": "2026-07-01",
       "return_date": "2026-07-05",
       "price": 982,
@@ -14644,6 +15666,20 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-06-22T17:54:35.989845+00:00"
+    },
+    {
+      "origin": "OAK",
+      "destination": "JFK",
+      "depart_date": "2026-10-23",
+      "return_date": "2026-10-25",
+      "price": 1004,
+      "outbound_departure_time": "12:41 PDT",
+      "outbound_arrival_time": "23:40 EDT",
+      "duration_minutes": 479,
+      "duration_label": "7h 59m",
+      "match_type": "near",
+      "search_label": "Thursday -> Sunday (next 3mo)",
+      "scanned_at": "2026-08-03T16:03:36.610227+00:00"
     },
     {
       "origin": "OAK",
@@ -14700,20 +15736,6 @@
       "match_type": "near",
       "search_label": "Thursday -> Sunday (next 3mo)",
       "scanned_at": "2026-06-22T17:54:35.989691+00:00"
-    },
-    {
-      "origin": "OAK",
-      "destination": "JFK",
-      "depart_date": "2026-10-23",
-      "return_date": "2026-10-25",
-      "price": 1087,
-      "outbound_departure_time": "12:41 PDT",
-      "outbound_arrival_time": "23:40 EDT",
-      "duration_minutes": 479,
-      "duration_label": "7h 59m",
-      "match_type": "near",
-      "search_label": "Thursday -> Sunday (next 3mo)",
-      "scanned_at": "2026-07-27T16:02:54.804311+00:00"
     },
     {
       "origin": "OAK",
